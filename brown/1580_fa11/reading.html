@@ -1,0 +1,211 @@
+<html>
+	<head>
+	<title>Math 1580, Fall 2011</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12357475-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<h1 id="title">Math 1580 Cryptography, Fall 2011</h1>
+	<div id="nav">
+	<ul>
+		<li><a href="info.html">Course Information</a></li>
+		<li id="selected"><a href="reading.html">Lecture Schedule</a></li>
+		<li><a href="homework.html">Homework Assignments</a></li>
+	</ul>
+	</div>
+
+	<div id="content">
+		<div align="center"><h1>Lecture Schedule / News and Updates</h1></div>
+
+	<ul id="reading">
+
+		<li><b>Final Exam scores:</b> Out of 42 total (6pts per problem). Approximate letter grade ranges are 
+		<br>A: 90-100%,
+		<br>B: 80-89%, 
+		<br>C: 60-79%.
+		<br><table border=1><tr><th>Who</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>Tot</th></tr>
+			<tr><td>rabidllama</td><td>6</td><td>6</td><td>5</td><td>3</td><td>4</td><td>5</td><td>4</td><td>33</td></tr>
+			<tr><td>j3nlf492a</td><td>6</td><td>6</td><td>6</td><td>3</td><td>1</td><td>4</td><td>1</td><td>27</td></tr>
+			<tr><td>aaaaabbbbb</td><td>6</td><td>6</td><td>4</td><td>5</td><td>6</td><td>5</td><td>6</td><td>38</td></tr>
+			<tr><td>f9aT2m0r</td><td>6</td><td>6</td><td>6</td><td>4</td><td>6</td><td>4</td><td>5</td><td>37</td></tr>
+			<tr><td>xd91rjwf</td><td>6</td><td>6</td><td>5</td><td>4</td><td>6</td><td>6</td><td>6</td><td>39</td></tr>
+			<tr><td>idh2h3lkd5</td><td>6</td><td>6</td><td>2</td><td>4</td><td>6</td><td>6</td><td>2</td><td>32</td></tr>
+			<tr><td>1029384756</td><td>6</td><td>6</td><td>5</td><td>4</td><td>2</td><td>6</td><td>3</td><td>32</td></tr>
+			<tr><td>t5aq1fjo</td><td>6</td><td>6</td><td>5</td><td>5</td><td>6</td><td>6</td><td>6</td><td>40</td></tr>
+			<tr><td>1q2w3e4r5t</td><td>6</td><td>6</td><td>6</td><td>5</td><td>6</td><td>6</td><td>3</td><td>38</td></tr>
+			<tr><td>9j5zbox5</td><td>6</td><td>5</td><td>6</td><td>5</td><td>5</td><td>6</td><td>5</td><td>38</td></tr>
+			<tr><td>oiepruwmb</td><td>6</td><td>6</td><td>6</td><td>4</td><td>2</td><td>5</td><td>2</td><td>31</td></tr>
+			<tr><td>V9RMVOW4</td><td>6</td><td>6</td><td>6</td><td>5</td><td>6</td><td>6</td><td>6</td><td>41</td></tr>
+			<tr><td>s3d4wk255</td><td>6</td><td>6</td><td>6</td><td>5</td><td>6</td><td>6</td><td>2</td><td>37</td></tr>
+			<tr><td>81479057</td><td>6</td><td>6</td><td>5</td><td>5</td><td>6</td><td>6</td><td>3</td><td>37</td></tr>
+		    </table>
+		<li><b>Final Exam:</b> <a href="final.pdf">Download the final exam here.</a> 
+		<ul>
+			<li> <b>Due by 5pm on Tuesday, Dec. 13 in 303 Kassar</b>. Slide it under the door 
+			if I'm not around (I will be proctoring a calculus exam from 2-5). Note that the Kassar building closes at 5pm! </li>
+			<li>You may use the textbook as well as a computer algebra system such as Wolfram alpha, but no other resources, either online or offline.</li>
+			<li> Besides the use of a computer algebra system, you may not write computer code to solve the problems.</li>
+			<li> You must complete the final on your own -- no collaboration is allowed.</li>
+			<li> Please sign the statement on the first page of the exam and submit it with your exam.</li>
+			<li> Feel free to email me if you have any questions or need clarification.</li></ul>
+
+
+		<li><b>Wed. 12/7:</b> Homomorphic encryption.
+		</li>
+
+		<li><b>Mon. 12/5:</b> LLL algorithm. Ch. 6.12.
+		<p> Beware of the following typos in the textbook regarding the LLL algorithm:<br>
+		p. 409: equation (6.56) the v_(i-1)^* norms should be squared.<br>
+		p. 410: the equation in the middle of the page should begin with the norm of v_1, not v_i<br>
+		p. 410: the last equation should have b_j^2, not b_j^*<br>
+		p. 411: in step 6 of the algorithm it should be v_j, not v_j^*</p>
+		</li>
+
+		<li><b>Fri. 12/2:</b> Gaussian lattice reduction and LLL. Ch. 6.12.
+		</li>
+
+		<li><b>Wed. 11/30:</b> NTRU as a lattice problem, <del>lattice reduction algorithms</del>. Ch. 6.11, <del>6.12</del>.
+		</li>
+
+		<li><b>Mon. 11/28:</b> The NTRU cryptosystem. Ch. 6.10
+		</li>
+
+		<li><b>Thanksgiving break Wed 11/23 and Fri 11/25:</b> No class.
+		</li>
+
+		<li><b>Mon. 11/21:</b> Convolution polynomial rings <del>and NTRU</del>. Ch. 6.9, <del>6.10</del>.
+		</li>
+
+		<li><b>Fri. 11/18:</b> Babai's Closest Vertex Algorithm and GGH cryptosystem. Ch. 6.6-6.8.
+		</li>
+
+		<li><b>Wed. 11/16:</b> Gaussian Heuristic. Ch. 6.5.
+		</li>
+
+		<li><b>Mon. 11/14:</b> Short vectors in lattices. Ch. 6.5.
+		</li>
+
+		<li><b>Fri. 11/11:</b> Lattices. Ch. 6.4.
+		</li>
+
+		<li><b>Wed. 11/9:</b> Vector spaces and lattices. Ch. 6.3, 6.4.
+		</li>
+
+		<li><b>Mon. 11/7:</b> A subset sum based cryptosystem. Ch. 6.2
+		</li>
+
+		<li><b>Fri. 11/4:</b> Pollard's rho method continued, P and NP. Ch. 4.5, 4.7.
+		<img src="http://imgs.xkcd.com/comics/np_complete.png"></img> <p>From <a href="http://xkcd.com">xkcd</a></p>
+		</li>
+
+		<li><b>Wed. 11/2:</b> Collision algorithms, and Pollard's rho method. Ch. 4.4, 4.5.
+		</li>
+		
+		<li><b>Mon. 10/31:</b> Discrete probability, conditional probability and Bayes's formula. Ch. 4.3.1-4.3.3
+		</li>
+
+		<li><b>Mon-Fri. 10/23-27:</b> Elliptic curves and cryptography with Prof. Viray. Ch. 5.1-5.6.
+		</li>
+
+		<li><b>Fri. 10/21:</b> <b>Midterm Exam in class</b> <br><a href="ex1.pdf">Exam 1 with solutions.</a>
+		<p>Topics list: <ul>
+			<li>Basic tools: <ul><li>Modular arithmetic</li><li>fast powering</li><li> multiplicative inverses via extended Euclidean algorithm</li>
+				<li>Order notation f = O(g), f = \Omega(g)</li></ul></li>
+			<li>Basic number theory: <ul><li>gcd, \phi(n)</li><li>Fermat's Little Theorm/Euler's formula a^\phi(n) = 1 ( mod n)</li>
+				<li>Chinese Remainder Theorem</li><li>Smooth numbers</li></ul></li>
+			<li>Cryptosystems: <ul><li>Diffie-Hellman key exchange</li><li>ElGamal</li><li>RSA</li></ul></li>
+			<li>Algorithms: <ul><li>Baby step, Giant step</li><li>Pohlig-Hellman</li><li>Miller-Rabin</li><li>Pollard p - 1</li><li>Quadratic Sieve</li></ul></li>
+			<li><b>Not on the exam:</b> Distribution of primes, \pi(N), distribution of smooth numbers \psi(N,B), little o notation, L(N), Carmichael numbers, Mersenne primes, that extra algorithm for improving the DLP when the order is a power of a prime, index calculus, quadratic reciprocity, abstract groups.</li>
+		</ul>
+		</p>
+		</li>
+
+		<li><b>Wed. 10/19:</b> Quadratic reciprocity and exam review. Ch. 3.9.
+		</li>
+
+		<li><b>Mon. 10/17:</b> Index calculus.  Ch. 3.8
+		</li>
+
+		<li><b>Fri. 10/14:</b> The quadratic sieve.  Ch. 3.7.2.  <p>In
+		class I stated that the quadratic sieve was used to factor the
+		number
+		RSA-129:<br>114381625757888867669235779976146612010218296721242362562561842935<br>706935245733897830597123563958705058989075147599290026879543541
+		<br>into its prime factors
+		<br>3490529510847650949147849619903898133417764638493387843990820577
+		and
+		<br>32769132993266709549961988190834461413177642967992942539798288533.</p>
+		<p>This was actually not part of the original set of RSA
+		numbers, but appeared as a challenge posed by the RSA creators
+		in Martin Gardner's "Mathematical Games" column in Scientific
+		American.  They encrypted a message with RSA using this number
+		as a modulus.  1977 predated the invention of the quadratic
+		sieve (due to Pomerance in 1981) and the general number field
+		sieve, and at the time Ron Rivest believed it would not be
+		broken in the forseeable future.  It was factored in 1994 to
+		reveal the plaintext "The Magic Words are Squeamish
+		Ossifrage."</p> </li>
+
+		<li><b>Wed. 10/12:</b> Smooth numbers, the quadratic sieve and relation building.  Ch. 3.7.1, 3.7.2.
+		</li>
+
+		<li><b>Mon. 10/10:</b> <b>No class - Fall Weekend.</b>
+		</li>
+
+		<li><b>Fri. 10/7:</b> Factorization by difference of squares. Ch. 3.6
+		</li>
+
+		<li><b>Wed. 10/5:</b> Pollard's p-1 factorization algorithm. Ch. 3.5
+		</li>
+
+		<li><b>Mon. 10/3:</b> Primality testing, Miller-Rabin, distribution of primes. Ch. 3.4
+		</li>
+
+		<li><b>Fri. 9/30:</b> Euler's formula and roots modulo pq, RSA.  Ch. 3.1, 3.2, 3.3
+		</li>
+
+		<li><b>Wed. 9/28:</b> Prime power DLP reduction algorithm, DLP example. Ch. 2.9
+		</li>
+
+		<li><b>Mon. 9/26:</b> Chinese Remainder Theorem, Pohlig-Hellman Algorithm. Ch. 2.8, 2.9
+		</li>
+
+		<li><b>Fri. 9/24:</b> Order notation, Baby-step Giant-step algorithm, <del>Chinese Remainder Theorem</del>. Ch. 2.6, 2.7, <del>2.8</del>
+		</li>
+
+		<li><b>Wed. 9/22:</b> ElGamal cryptosystem, groups, <del>order notation</del>. Ch. 2.4, 2.5, <del>2.6</del>.
+		</li>
+
+		<li><b>Mon. 9/19:</b> Asymmetric ciphers, the Discrete Logarithm Problem and Diffie-Hellman key exchange. Ch. 2.1, 2.2, 2.3.
+		</li>
+
+		<li><b>Fri. 9/16:</b> Order and primitive roots. Symmetric <del>and asymmetric</del> ciphers. Ch. 1.5 (end), 1.6, 1.7.
+		</li>
+
+		<li><b>Wed. 9/14:</b> Prime numbers, unique factorization and
+			finite fields.  Fermat's little theorem, <del>order and primitive roots</del>. Ch. 1.4, 1.5.  
+		</li> 
+
+		<li><b>Mon. 9/12:</b> Modular arithmetic, group of units, fast powering algorithm. Ch. 1.3
+		</li>
+
+		<li><b>Fri. 9/9:</b> GCD, extended Euclidean algorithm.  If time, intro. to modular arithmetic. Ch. 1.2
+		</li>
+
+		<li><b> Wed. 9/7:</b> Introduction and syllabus.  Shift and substitution ciphers, GCD.  Ch. 1.1, 1.2
+		</li>
+	
+</div>
+
+</body>
