@@ -1,1 +1,147 @@
-reading.html
+<html>
+	<head>
+	<title>Math 1580, Fall 2011</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12357475-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<h1 id="title">Math 1580 Cryptography, Fall 2011</h1>
+	<div id="nav">
+	<ul>
+		<li><a href="info.html">Course Information</a></li>
+		<li id="selected"><a href="reading.html">Lecture Schedule</a></li>
+		<li><a href="homework.html">Homework Assignments</a></li>
+	</ul>
+	</div>
+
+	<div id="content">
+		<div align="center"><h1>Course Information</h1></div>
+		<p>A printable pdf version of the syllabus is <a href="syllabus.pdf">here</a>.
+	
+		<h2>Basic Information</h2>
+		<p><b>Instructor:</b>
+		Chris Kottke</p>
+
+		<p><b>Office:</b> 
+		303 Kassar-Gould House</p>
+
+		<p><b>Email:</b> 
+		<a href="mailto:ckottke@math.brown.edu">ckottke@math.brown.edu</a></p>
+
+		<p><b>Office hours:</b>
+		WF 2-3pm, or by appointment.</p>
+
+		<p><b>Text:</b>
+		<em>An Introduction to Mathematical Cryptography</em>, by Hoffstein, Pipher, and Silverman.  Springer.  ISBN: 978-0-387-77993-5.</p>
+
+		<p><b>Exams:</b>
+		<ul>
+			<li> Midterm: Friday Oct. 21, in class.</li>
+			<li> Final: Tuesday, Dec. 13, 9am.</li>
+		</ul></p>
+
+		<p><b>Grading:</b>
+		Your final grade will depend on weekly homework scores and exams (1 midterm and 1 final), weighted as below.  Your lowest homework score will be dropped.  The final will be about 1/3 cumulative material and 2/3 new material.</p>
+		<ul>
+			<li>Homework: 30%</li> 
+			<li>Midterm:  30%</li>
+			<li>Final: 40% </li>
+		</ul>
+
+
+		<h2>Description:</h2>
+		<p>This class will be an introduction to the theory of mathematical cryptography.  While we will discuss symmetric key cryptography, the main focus is on the difficult mathematical problems which underlie asymmetric (public key) cryptography.</p>
+
+		<p>These problems include the discrete logarithm problem (ElGamal and Elliptic Curve Cryptography), integer factorization (RSA) and the Shortest Vector Problem (NTRU).</p>
+
+		<p>In the course of studying these problems, we will consider what it means for a mathematical problem to be considered difficult, what are some of the best known algorithms for solving such problems, and how they may be exploited for cryptographic purposes. </p>
+
+		<p>Topics will include modular arithmetic, finite fields, discrete logarithms, Diffie-Hellman key exchange, ElGamal, integer factorization, RSA, an introduction to probability and information theory, elliptic curves, lattices, and digital signatures.</p>
+
+		<h2>Course Policies:</h2>
+		<ul>
+			<li> <b>Homework:</b>  Homeworks may be turned in
+			during class, or turned in to the appropriate box in
+			the math department mailroom, <b>by 4pm on the due
+				date.</b>  Collaboration on homework
+			assignments is allowed, and indeed encouraged.  This
+			means discussing problems, solution techniques, and
+			comparing individual answers, <b>not copying
+				answers.</b>  Each student must write up their
+			own homework individually.  <b>Please cite your
+				collaborators and references used (apart from
+				the textbook) on your homework
+				assignments.</b></li> <li> <b>Missed/Late
+				assignments and exams:</b>  Late homework will
+			not be permitted, except in cases of emergency
+			accompanied by a note from the Dean's office.  If you
+			have a conflict, please arrange to turn in your
+			assignment early, or use it as your lowest homework
+			score to be dropped.  A missed exam may be made up only
+			in the case of an emergency; the make up will be an
+			oral exam and may be more difficult than the
+			original.</li> <li> <b>Grade disputes:</b> Please check
+			over your exams and assignments when they are returned
+			to you for any grading mistakes and I will correct
+			them.  <b>Grade disputes will be considered for one
+				week following the return of an assignment.</b>
+			After one week, the grade is set.</li> <li>
+			<b>Calculators:</b> You may use a basic calculator
+			(limited to addition, subtraction, multiplication and
+			division) on exams if you wish.  <b>No scientific or
+				graphing calculators or smartphones
+				permitted.</b>  However, the exams will be
+			designed so that any computation can be reasonably done
+			by hand, and arithmetic mistakes will not be unfairly
+			punished when grading.</li> </ul>
+
+		<h2>Tips for success:</h2> <ul> <li> <b>Read the relevant
+				material before class.</b>  I will put sections
+			of the book corresponding to each lecture on the
+			website a day or so beforehand.  You do not need to
+			fully understand everything, however, having some
+			familiarity with the subject of the lectures beforehand
+			is extremely valuable.  You will definitely get more
+			out of each lecture this way.  </li> <li> <b>Come to
+				office hours.</b>  Identify anything you don't
+			understand very well, and ask me about it.  This is an
+			invaluable time to address individual questions that
+			you have; there are no stupid questions!  Also, if you
+			have any questions or interests that go beyond the
+			scope of this course, I'm more than happy to discuss
+			these in office hours as well.</li> <li> <b>You are
+				your own teacher.</b>  You are ultimately
+			responsible for your own learning, and you know best
+			what material you understand well and what material you
+			feel a little hazy about.  Don't let yourself get away
+			with the latter!  While you're encouraged to work on
+			homework assignments in groups, it is your
+			responsibility to make sure you're not just leaning on
+			your friends.</li> <li> <b>Think about and do math!</b>
+			Really understanding mathematics takes time and
+			practice.  The homework assignments are not just for
+			grading purposes, they're meant to give you an
+			opportunity to dig into the material and develop your
+			skills and intuition.  While I'll drop your lowest
+			homework grades (because once in a while you'll have a
+			bad and/or crazy week), not spending any time working
+			on a particular assignment is a Very Bad Idea.   So too
+			is waiting until Thursday night to begin the
+			assignment.  You will get the most out of each homework
+			by starting early and letting the problems roll around
+			in your brain for a while.</li> </ul>
+	</div>
+
+</body>
