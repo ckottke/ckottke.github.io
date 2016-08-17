@@ -6,13 +6,14 @@ title: Calculus III, Fall 2016
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ page.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <description>{{ page.title | xml_escape}}</description>
+    <link>http://ckottke.github.io/calc3/</link>
+    <atom:link href="{{ "/calc3/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.calc3_fa16 %}
+   {% assign posts = site.classposts | where: "course" , "calc3_fa16" %}
+   {% for post in posts reversed %}
       <item>
         <title>{{ post.topic | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
