@@ -1,91 +1,69 @@
-- title: Partial compactification of monopoles and metric asymptotics
-  arxiv: 1512.02979
-  pages: 113
-  year: 2015
-  with: [mas]
+---
+layout: main
+---
 
-- title: Blow-up in manifolds with generalized corners
-  arxiv: 1509.03874 
-  year: 2015
-  pages: 33
+# Employment
 
-- title: Equivalence of string and fusion loop-spin structures
-  arxiv:1309.0210 
-  year: 2013
-  pages: 48
-  with: [rbm]
+2016-present: Assistant Professor of Mathematics, New College of Florida.
 
-- title: Dimension of monopoles on asymptotically conic 3-manifolds
-  doi: 10.1112/blms/bdv055
-  journal: Bulletin of the LMS
-  vol: 47
-  no: 5
-  year: 2015
-  pages: 818-834
-  arxiv:1310.2974
+2013-2016: Research Instructor, Mathematics Department, Northeastern University.
 
-- title: Loop-fusion cohomology and transgression
-  doi:10.4310/MRL.2015.v22.n4.a11
-  journal: Mathematical Research Letters 
-  vol: 22
-  no: 4
-  year: 2015
-  pages: 1177-1192
-  arxiv: 1309.7674
-  with: [rbm]
+2010-2013: Tamarkin Assistant Professor, Mathematics Department, Brown University.
 
-- title: A Callias-type index theorem with degenerate potentials
-  doi: 10.1080/03605302.2014.942740
-  journal: Communications in PDE
-  vol: 40
-  no: 2
-  year: 2015
-  pages: 219-264
-  arxiv: 1210.3275
+PhD 2010, MIT. Student of [Richard Melrose](http://math.mit.edu/~rbm).
 
-- title: Generalized blow-up of corners and fiber products
-  doi: 10.1090/S0002-9947-2014-06222-3
-  journal: Transactions of the AMS
-  vol: 367
-  no: 1 
-  year: 2015
-  pages: 651-705
-  arxiv: 1107.3320
-  with: [rbm]
+# Interests
+	
+Global, geometric and microlocal analysis; gauge theory, moduli spaces and loop spaces.
+	
+# Research
 
-- title: An index theorem of Callias type for pseudodifferential operators
-  doi: 10.1017/is010011014jkt132
-  journal: Journal of K-Theory
-  vol: 8
-  no: 3
-  year: 2011
-  pages: 387-417
-  arxiv: 0909.5661
+My research broadly concerns geometric moduli spaces and topological
+invariants, especially those involving noncompact and singular spaces, with an
+approach through the analysis of partial differential equations. I specialize
+in the methods of geometric microlocal analysis (pseudodifferential and Fourier
+integral operators on manifolds), index theory and analysis on manifolds with
+corners. I am especially interested in problems set within the intersection of
+analysis, geometry and topology, and in problems arising from mathematical
+physics, particularly gauge theory and string theory.
 
-- title: Accurate finite-difference and time-domain simulation of anisotropic media by subpixel smoothing
-  doi: 10.1364/OL.34.002778
-  journal: Optics Letters
-  vol: 34
-  no: 18
-  year: 2009
-  pages: 2778-2780
-  with: [afo, sj]
+Here is a full [research statement](docs/research.pdf), and a [curriculum vitae](docs/kottke_cv.pdf)
 
-- title: Perturbation theory for anisotropic dielectric interfaces, and application to subpixel smoothing of discretized numerical methods
-  doi: 10.1103/PhysRevE.77.036611
-  journal: Phys. Rev. E
-  vol: 77
-  no: 3
-  year: 2008
-  pages: 6611-6621
-  with: [afo, sj]
-  arxiv: 0708.1031
+My current research projects include 
 
-- title: Vortex core identification in viscous hydrodynamics
-  doi: 10.1098/rsta.2005.1620
-  journal: Phil. Trans. R. Soc. A
-  vol: 363
-  no: 1833
-  year: 2005
-  pages: 1937-1948
-  with: [lfinn, bb]
+- The study of the moduli spaces of magnetic monopoles, on R^3 (with an aim of
+  compactifying the moduli spaces and proving Sen's conjecture for their L^2
+cohomology) and more general 3-manifolds with asymptotically conic ends.  Some
+of this work is joint with R. Melrose and M. Singer.
+- A construction of the Dirac operator on the free loop space of a compact
+  manifold, with the goal of being able to treat it seriously as a differential
+operator and eventually to understand Witten's index formula for the elliptic
+genus. Joint with R. Melrose.
+- A resolution theory in the category of manifolds with (possibly generalized)
+  corners, which is related to the algebro-geometric theory of logarithmic
+geometry (itself a generalization of toric geometry and toroidal embeddings).
+Some of this work is joint with R. Melrose.
+
+
+Previously, I did some work in applied mathematics on perturbation theory for
+anisotropic dielectric interfaces, and before that, on large scale parallel
+numerical simulation of fluid dynamics.
+
+# Publications and preprints
+[List of my arXiv preprints](http://arxiv.org/a/kottke_c_1)
+
+{% include papers.html %}
+
+
+# Notes & other writings
+		
+- [*Index Theory*](docs/index_theory.pdf), notes from the 2010 [Talbot Workshop
+  of Loop Groups and Twisted K-theory](http://math.mit.edu/conferences/talbot/)
+This is a brief introduction to the Atiyah-Singer families index theorem for
+topologists, emphasizing the role of the index as a Gysin map in K-theory,
+including a discussion of spin^c structures, orientation and Dirac operators.
+- [*Extension off the boundary in a manifold with corners*](docs/extension.pdf).
+  This is a short note about extending vector bundles, sections and connections
+smoothly from the boundary of a manifold with
+corners into the interior.
+
