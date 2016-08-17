@@ -1,91 +1,96 @@
 - title: Partial compactification of monopoles and metric asymptotics
   arxiv: 1512.02979
-  pages: 113
   year: 2015
   with: [mas]
+  pages: 113
 
 - title: Blow-up in manifolds with generalized corners
   arxiv: 1509.03874 
-  year: 2015
+  year: 2015 
   pages: 33
-
-- title: Equivalence of string and fusion loop-spin structures
-  arxiv:1309.0210 
-  year: 2013
-  pages: 48
-  with: [rbm]
 
 - title: Dimension of monopoles on asymptotically conic 3-manifolds
   doi: 10.1112/blms/bdv055
   journal: Bulletin of the LMS
-  vol: 47
-  no: 5
+  volume: 47
+  number: 5
   year: 2015
   pages: 818-834
-  arxiv:1310.2974
+  arxiv: 1310.2974
+
+- title: Blow-up in manifolds with generalized corners
+  arxiv: 1509.03874
+  year: 2015
+  pages: 33
+
+- title: Equivalence of string and fusion loop-spin structures
+  with: [rbm]
+  arxiv: 1309.0210
+  year: 2013
+  pages: 48
 
 - title: Loop-fusion cohomology and transgression
-  doi:10.4310/MRL.2015.v22.n4.a11
-  journal: Mathematical Research Letters 
-  vol: 22
-  no: 4
+  doi: 10.4310/MRL.2015.v22.n4.a11
+  with: [rbm]
+  journal: Mathematical Research Letters
+  volume: 22
+  number: 4
   year: 2015
   pages: 1177-1192
   arxiv: 1309.7674
-  with: [rbm]
 
 - title: A Callias-type index theorem with degenerate potentials
   doi: 10.1080/03605302.2014.942740
   journal: Communications in PDE
-  vol: 40
-  no: 2
+  volume: 40
+  number: 2
   year: 2015
   pages: 219-264
   arxiv: 1210.3275
-
+          
 - title: Generalized blow-up of corners and fiber products
-  doi: 10.1090/S0002-9947-2014-06222-3
+  doi: 10.1090/S0002-9947-2014-06222-3 
+  with: [rbm]
   journal: Transactions of the AMS
-  vol: 367
-  no: 1 
-  year: 2015
+  volume: 367 
+  number: 1 
+  year: 2015 
   pages: 651-705
   arxiv: 1107.3320
-  with: [rbm]
 
-- title: An index theorem of Callias type for pseudodifferential operators
-  doi: 10.1017/is010011014jkt132
-  journal: Journal of K-Theory
-  vol: 8
-  no: 3
-  year: 2011
+- title: An index theorem of Callias type for pseudodifferential operators 
+  doi: 10.1017/is010011014jkt132 
+  journal: Journal of K-Theory 
+  volume: 8 
+  number: 3 
+  year: 2011 
   pages: 387-417
   arxiv: 0909.5661
 
 - title: Accurate finite-difference and time-domain simulation of anisotropic media by subpixel smoothing
-  doi: 10.1364/OL.34.002778
-  journal: Optics Letters
-  vol: 34
-  no: 18
-  year: 2009
+  doi: 10.1364/OL.34.002778 
+  with: [afo, sj] 
+  journal: Optics Letters 
+  volume: 34 
+  number: 18 
+  year: 2009 
   pages: 2778-2780
-  with: [afo, sj]
-
+          
 - title: Perturbation theory for anisotropic dielectric interfaces, and application to subpixel smoothing of discretized numerical methods
   doi: 10.1103/PhysRevE.77.036611
-  journal: Phys. Rev. E
-  vol: 77
-  no: 3
-  year: 2008
-  pages: 6611-6621
-  with: [afo, sj]
+  with: [afo, sj] 
+  journal: Phys. Rev. E  
+  volume: 77 
+  number: 3 
+  year: 2008 
+  pages: 6611-6621 
   arxiv: 0708.1031
 
-- title: Vortex core identification in viscous hydrodynamics
-  doi: 10.1098/rsta.2005.1620
-  journal: Phil. Trans. R. Soc. A
-  vol: 363
-  no: 1833
-  year: 2005
+- title: Vortex core identification in viscous hydrodynamics 
+  doi: 10.1098/rsta.2005.1620 
+  with: [lfinn, bb] 
+  journal: Phil. Trans. R. Soc. A  
+  volume: 363 
+  number: 1833 
+  year: 2005 
   pages: 1937-1948
-  with: [lfinn, bb]

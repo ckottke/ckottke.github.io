@@ -52,42 +52,8 @@ numerical simulation of fluid dynamics.
 # Publications and preprints
 [List of my arXiv preprints](http://arxiv.org/a/kottke_c_1)
 
+{% include papers.html %}
 
-- [Partial compactification of monopoles and metric asymptotics](http://arxiv.org/abs/1512.02979).
-  (With [M. Singer](http://iris.ucl.ac.uk/iris/browse/profile?upi=MASIN29)) \\
-  arXiv:1512.02979 (2015), 113 pages.
-- [Blow-up in manifolds with generalized corners](http://arxiv.org/abs/1509.03874). \\
-  arXiv:1509.03874 (2015), 33 pages.
-- [Equivalence of string and fusion loop-spin structures](http://arxiv.org/abs/1309.0210).
-  (With [R. Melrose](http://math.mit.edu/~rbm/)) \\
-  arXiv:1309.0210 (2013), 48 pages.
-- [Dimension of monopoles on asymptotically conic 3-manifolds](http://dx.doi.org/10.1112/blms/bdv055). \\
-  *Bulletin of the LMS*, vol. 47, no. 5, (2015), pp. 818-834. \\
-  [arXiv:1310.2974](http://arxiv.org/abs/1310.2974)
-- [Loop-fusion cohomology and transgression](http://dx.doi.org/10.4310/MRL.2015.v22.n4.a11).
-  (With [R. Melrose](http://math.mit.edu/~rbm/)) \\
-  *Mathematical Research Letters*, vol. 22, no. 4, (2015), pp. 1177-1192. \\
-  [arXiv:1309.7674](http://arxiv.org/abs/1309.7674)
-- [A Callias-type index theorem with degenerate potentials](http://dx.doi.org/10.1080/03605302.2014.942740). \\
-  *Communications in PDE*, vol. 40, no. 2, (2015), pp. 219-264. \\
-  [arXiv:1210.3275](http://arxiv.org/abs/1210.3275)
-- [Generalized blow-up of corners and fiber products](http://dx.doi.org/10.1090/S0002-9947-2014-06222-3).
-  (With [R. Melrose](http://math.mit.edu/~rbm/)) \\
-  *Transactions of the AMS*, vol. 367, no. 1, (2015), pp. 651-705. \\
-  [arXiv:1107.3320](http://arxiv.org/abs/1107.3320)
-- [An index theorem of Callias type for pseudodifferential operators](http://dx.doi.org/10.1017/is010011014jkt132). \\
-  *Journal of K-Theory*, vol. 8, no. 3, (2011), pp. 387-417. \\
-  [arXiv:0909.5661](http://arxiv.org/abs/0909.5661)
-- [Accurate finite-difference and time-domain simulation of anisotropic media by subpixel smoothing](http://dx.doi.org/10.1364/OL.34.002778).
-  (With [A.F. Oskooi](http://ab-initio.mit.edu/~oskooi/) and [S. Johnson](http://math.mit.edu/~stevenj/)) \\
-  *Optics Letters*, vol. 34, no. 18, (2009), pp. 2778-2780.
-- [Perturbation theory for anisotropic dielectric interfaces, and application to subpixel smoothing of discretized numerical methods](http://dx.doi.org/10.1103/PhysRevE.77.036611).
-  (With [A.F. Oskooi](http://ab-initio.mit.edu/~oskooi/) and [S. Johnson](http://math.mit.edu/~stevenj/)) \\
-  *Phys. Rev. E*, vol. 77, no. 3, (2008), pp. 6611-6621. \\
-  [arXiv:0708.1031](http://arxiv.org/abs/0708.1031)
-- [Vortex core identification in viscous hydrodynamics](http://dx.doi.org/10.1098/rsta.2005.1620).
-  (With L. Finn and [B. Boghosian](http://hilbert.math.tufts.edu/~bruceb/)) \\
-  *Phil. Trans. R. Soc. A*, vol. 363, no. 1833, (2005), pp. 1937-1948.
 
 # Notes & other writings
 		
