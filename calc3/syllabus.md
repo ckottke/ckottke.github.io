@@ -42,7 +42,7 @@ problems from the previous three lectures.
 - TBD: Final exam
 
 **Assessment**: 
-Your course performance (Sat/Unsat) will be evaluated based on the formula below.
+Your course performance (Sat/Unsat) will be evaluated based on quizzes and exams, weighted as below.
 Class participation and attendence will be reflected in the narrative evaluation.
 
 - Quizzes: 20%
@@ -50,6 +50,17 @@ Class participation and attendence will be reflected in the narrative evaluation
 - Exam 2: 20%
 - Final Exam: 40%
 
+**Policies**: A student claiming a need for special
+accommodations because of a disability must work with the Counseling and
+Wellness Center, which will establish the need for specific accommodations and
+communicate them to the instructor.
+
+No student shall be compelled to attend class or sit for an examination at a
+day or time when he or she would normally be engaged in a religious observance
+or on a day or time prohibited by his or her religious belief.  Students are
+expected to notify their instructors if they intend to be absent for a class or
+announced examination, in accordance with this policy, prior to the scheduled
+meeting.
 
 **Lecture Schedule**:
 
