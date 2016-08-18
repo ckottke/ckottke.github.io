@@ -3,8 +3,9 @@ layout: class
 title: Calculus III, Fall 2016
 ---
 
-Calculus III: Multivariable Calculus
+Calculus III: Multivariable Calculus, Fall 2016
 ====================================
+[PDF syllabus](syllabus.pdf)
 - **Instructor**: Professor Chris Kottke
 - **Office**: HNS 104
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
@@ -22,8 +23,9 @@ classical theorems of vector calculus: Green's Theorem, Stokes' Theorem and the
 Divergence Theorem.
 
 **Reading Assignments**: 
-A reading assignment for each class will be posted on the course webpage prior to each lecture. This reading
-should be completed *before* the lecture. Unless otherwise specified, you will be responsible for 
+A reading assignment for each class will be posted on the course webpage and in
+the Canvas course prior to each lecture. This reading should be completed
+*before* the lecture. Unless otherwise specified, you will be responsible for 
 all material in the reading assignment, even if it is not covered in lecture. A provisional lecture
 schedule appears below.
 
@@ -32,18 +34,18 @@ Homework problems will be assigned after each lecture, *but will not be collecte
 Instead, a selection of these problems will appear on each weekly quiz.
 
 **Quizzes**: There will be a 20 minute quiz at the beginning of lecture each
-Friday, consisting of two to four problems selected verbatim from the homework
-problems from the previous three lectures. 
+Friday (excepting the two Exam days below), which will consist of two to four problems
+selected from the homework problems from the previous three lectures. 
 
 **Exams**: There will be two in-class midterm exams, and a cumulative final. Dates are as follows:
 
-- Friday, September 23: Exam 1
-- Friday, November 4: Exam 2
-- TBD: Final exam
+- Exam 1: Friday, September 23
+- Exam 2: Friday, November 4
+- Final exam: TBD
 
 **Assessment**: 
 Your course performance (Sat/Unsat) will be evaluated based on quizzes and exams, weighted as below.
-Class participation and attendence will be reflected in the narrative evaluation.
+Class participation and attendance will be reflected in the narrative evaluation.
 
 - Quizzes: 20%
 - Exam 1: 20%
@@ -67,7 +69,7 @@ meeting.
 | Monday | Wednesday | Friday |
 |:-----|:-----|:-----|
 | **8/22**: 12.1, 12.2: 3D coordinates, vectors | **8/24**: 12.3, 12.4: Dot, cross products | **8/26**: 12.5, 12.6: Lines, planes, surfaces |
-| **8/29**: 13.1: Curves | **8/31**: 13.2: Derivatives, integrals of curves | **9/2**: 14.1: Multi-variable funcions |
+| **8/29**: 13.1: Curves | **8/31**: 13.2: Derivatives, integrals of curves | **9/2**: 14.1: Multi-variable functions |
 | **9/5: Labor Day** | **9/7**: 14.2, 14.3: Limits, derivatives of functions | **9/9**: 14.4: Tangent planes |
 | **9/12**: 14.5: Chain rule | **9/14**: 14.6: Gradient | **9/16**: 14.7: Extrema |
 | **9/19**: 14.7: Extrema cont'd | **9/21**: Review | **9/23: _Exam 1_** |
