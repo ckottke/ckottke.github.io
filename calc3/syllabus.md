@@ -36,7 +36,8 @@ Instead, a selection of these problems will appear on each weekly quiz.
 
 **Quizzes**: There will be a 20 minute quiz at the beginning of lecture each
 Friday (excepting the two Exam days below), which will consist of two to four problems
-selected from the homework problems from the previous three lectures. 
+selected from the homework problems from the previous three lectures. Your lowest quiz score
+will be dropped when considering your overall course assessment.
 
 **Exams**: There will be two in-class midterm exams, and a cumulative final. Dates are as follows:
 
