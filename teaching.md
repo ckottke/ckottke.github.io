@@ -2,6 +2,11 @@
 layout: main
 ---
 
+# Courses at New College
+- Fall 2016:
+  - [Calculus III](calc3/)
+  - [Functional Analysis](functional/)
+
 # Courses at Northeastern
 
 - Spring 2016:
