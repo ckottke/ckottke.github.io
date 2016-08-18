@@ -1,0 +1,25 @@
+---
+layout: null
+title: Functional Analysis, Fall 2016
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ page.title | xml_escape }}</title>
+    <description>{{ page.title | xml_escape}}</description>
+    <link>http://ckottke.github.io/functional/</link>
+    <atom:link href="{{ "/functional/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+   {% assign posts = site.classposts | where: "course" , "functional_fa16" %}
+   {% for post in posts reversed %}
+      <item>
+	      <title>{{ post.date | date: "%a %-m/%-d"}}: {{ post.topic | xml_escape }}</title>
+	      <link>http://ckottke.github.io/functional/reading.html</link>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
