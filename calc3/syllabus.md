@@ -6,6 +6,7 @@ title: Calculus III, Fall 2016
 Calculus III: Multivariable Calculus, Fall 2016
 ====================================
 [PDF syllabus](syllabus.pdf)
+
 - **Instructor**: Professor Chris Kottke
 - **Office**: HNS 104
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
