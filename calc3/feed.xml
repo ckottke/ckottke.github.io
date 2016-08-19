@@ -7,7 +7,7 @@ title: Calculus III, Fall 2016
   <channel>
     <title>{{ page.title | xml_escape }}</title>
     <description>{{ page.title | xml_escape}}</description>
-    <link>{{"calc3/" | prepend: site.baseurl }}</link>
+    <link>{{ "/calc3/" | prepend: site.baseurl | prepend: site.url }}</link>
     <atom:link href="{{ "/calc3/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
@@ -17,6 +17,7 @@ title: Calculus III, Fall 2016
       <item>
 	      <title>{{ post.date | date: "%a %-m/%-d"}}: {{ post.topic | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
+	<link>{{ "/calc3/reading.html#" | prepend: site.baseurl |prepend: site.url | append: post.title }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       </item>
     {% endfor %}
