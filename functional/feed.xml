@@ -7,7 +7,7 @@ title: Functional Analysis, Fall 2016
   <channel>
     <title>{{ page.title | xml_escape }}</title>
     <description>{{ page.title | xml_escape}}</description>
-    <link>http://ckottke.github.io/functional/</link>
+    <link>{{ "/functional/" | prepend: site.baseurl | prepend: site.url }}</link>
     <atom:link href="{{ "/functional/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
@@ -16,8 +16,8 @@ title: Functional Analysis, Fall 2016
    {% for post in posts reversed %}
       <item>
 	      <title>{{ post.date | date: "%a %-m/%-d"}}: {{ post.topic | xml_escape }}</title>
-	      <link>http://ckottke.github.io/functional/reading.html</link>
         <description>{{ post.content | xml_escape }}</description>
+	<link>{{ "/functional/reading.html#" | prepend: site.baseurl |prepend: site.url | append: post.title }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       </item>
     {% endfor %}
