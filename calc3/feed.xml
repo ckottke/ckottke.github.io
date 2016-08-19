@@ -7,7 +7,7 @@ title: Calculus III, Fall 2016
   <channel>
     <title>{{ page.title | xml_escape }}</title>
     <description>{{ page.title | xml_escape}}</description>
-    <link>http://ckottke.github.io/calc3/</link>
+    <link>{{"calc3/" | prepend: site.baseurl }}</link>
     <atom:link href="{{ "/calc3/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
@@ -16,7 +16,6 @@ title: Calculus III, Fall 2016
    {% for post in posts reversed %}
       <item>
 	      <title>{{ post.date | date: "%a %-m/%-d"}}: {{ post.topic | xml_escape }}</title>
-	      <link>http://ckottke.github.io/calc3/reading.html</link>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       </item>
