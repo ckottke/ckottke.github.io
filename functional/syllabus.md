@@ -12,7 +12,7 @@ Functional Analysis, Fall 2016 Course Information
 - **Office**: HNS 104
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
-- **Office Hours**: TBD
+- **Office Hours**: MF 1:00-2:00, W 11:00-12:00, or by appointment.
 - **Lectures**: MWF 9:00-9:50, HNS 106
 - **Textbook**: Introductory Functional Analysis with Applications, by Erwin Kreyszig.
 

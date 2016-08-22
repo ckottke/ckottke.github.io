@@ -11,7 +11,8 @@ Calculus III: Multivariable Calculus, Fall 2016
 - **Office**: HNS 104
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
-- **Office Hours**: TBD
+- **Office Hours**: MF 1:00-2:00, W 11:00-12:00.
+- **TA**: Conor Welch, [conor.welch15@ncf.edu](mailto:conor.welch15@ncf.edu)
 - **Lectures**: MWF 10:00-10:50, LBR 248
 - **Workshop**: W 2:00-3:20, HNS 106
 - **Textbook**: Calculus, by James Stewart, 7th ed.
