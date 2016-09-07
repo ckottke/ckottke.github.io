@@ -58,7 +58,7 @@ numerical simulation of fluid dynamics.
 # Notes & other writings
 		
 - [*Index Theory*](docs/index_theory.pdf), notes from the 2010 [Talbot Workshop
-  of Loop Groups and Twisted K-theory](http://math.mit.edu/conferences/talbot/)
+  of Loop Groups and Twisted K-theory](http://math.mit.edu/conferences/talbot/).
 This is a brief introduction to the Atiyah-Singer families index theorem for
 topologists, emphasizing the role of the index as a Gysin map in K-theory,
 including a discussion of spin^c structures, orientation and Dirac operators.
