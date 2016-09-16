@@ -9,7 +9,7 @@ title: "London Summer School and Workshop: The Sen Conjecture and Beyond"
 ## Information and Goal of the Workshop:  
 {::options parse_block_html="true" /}
 <p>
-The Sen Conjecture, made in 1994 based on supersymmetric physics, is a statement about *L<sup>2</sup>* harmonic forms on the monopole moduli spaces *M<sub>k</sub>*. The Vafa-Witten Conjecture is a parallel conjecture for the Hilbert schemes *H<sub>k</sub>* of *k* points in *C<sup>2</sup>*, and there are similar questions and answers about the asymptotic behaviour of the moduli space of Higgs bundles. Meanwhile, the study of monopoles has received fresh attention from the physics community: here singular monopoles have an increasingly important role to play and have led to exciting new conjectures going well beyond the classical work of Sen. 
+The Sen Conjecture, made in 1994 based on supersymmetric physics, is a statement about *L*<sup>2</sup> harmonic forms on the monopole moduli spaces *M<sub>k</sub>*. The Vafa-Witten Conjecture is a parallel conjecture for the Hilbert schemes *H<sub>k</sub>* of *k* points in *C*<sup>2</sup>, and there are similar questions and answers about the asymptotic behaviour of the moduli space of Higgs bundles. Meanwhile, the study of monopoles has received fresh attention from the physics community: here singular monopoles have an increasingly important role to play and have led to exciting new conjectures going well beyond the classical work of Sen. 
 </p>
 
 As novel analytical techniques have been recently developed to address these
@@ -22,9 +22,9 @@ developments on the geometry and physics of singular monopoles.
 (Titles to be confirmed)
 <div>
 - **Daniel Grieser** (Oldenburg), Introduction to analysis on manifolds with corners
-- **Pierre Albin** (UIUC), *L<sup>2</sup>* cohomology, stratified spaces and related topics
+- **Pierre Albin** (UIUC), *L*<sup>2</sup> cohomology, stratified spaces and related topics
 - **Richard Melrose** (MIT),  Hilbert schemes, harmonic forms and the Vafa—Witten conjecture
-- **Andy Royston**,  Semiclassical framed BPS states
+- **Andy Royston** (Texas A&M), Supersymmetric gauge theory, monopole moduli space, and 'no exotics' as a generalized Sen conjecture 
 </div>
 
 ## Invited Participants:
@@ -37,8 +37,6 @@ researchers are particularly encouraged to apply.
 ## Organisers:  
 Karsten Fritzsch, Chris Kottke, Michael Singer
 
-
-## Main Sponsor: 
-EPSRC
+![Sponsored by EPSRC](EPSRC.jpg)
 
 
