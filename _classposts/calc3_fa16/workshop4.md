@@ -1,6 +1,6 @@
 ---
-date: 2016-09-14
-topic: Workshop 3
+date: 2016-09-21
+topic: Workshop 4
 course: calc3_fa16
 ---
 
