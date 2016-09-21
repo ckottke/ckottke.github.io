@@ -13,4 +13,5 @@ course: calc3_fa16
 - 14.6 (Gradient, directional derivatives) #10, 24, 42.a
 - 14.7 (Critical points and extrema) #9, 14
 - [Workshop answers](http://ckottke.ncf.edu/calc3/workshop4_solns.pdf)
+- [Homework solutions 14.6, 14.7](http://ckottke.ncf.edu/calc3/HW_solutions4.pdf)
 
