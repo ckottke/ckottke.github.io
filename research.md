@@ -27,7 +27,7 @@ corners. I am especially interested in problems set within the intersection of
 analysis, geometry and topology, and in problems arising from mathematical
 physics, particularly gauge theory and string theory.
 
-Here is a full [research statement](docs/research.pdf), and a [curriculum vitae](docs/kottke_cv.pdf)
+Here is a full [research statement](docs/research.pdf), and a [curriculum vitae](docs/kottke_cv.pdf).
 
 My current research projects include 
 
