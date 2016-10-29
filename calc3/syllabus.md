@@ -45,7 +45,7 @@ will be dropped when considering your overall course assessment.
 
 - Exam 1: Friday, September 23
 - Exam 2: Friday, November 4
-- Final exam: TBD
+- Final exam: Wednesday, December 7, 10:00-12:30, LBR 248.
 
 **Assessment**: 
 Your course performance (Sat/Unsat) will be evaluated based on quizzes and exams, weighted as below.
