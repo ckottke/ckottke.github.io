@@ -1,24 +1,31 @@
 <ul>
 {% for paper in site.data.papers %}
-{% if paper.doi %}
-<li><a href="http://dx.doi.org/{{paper.doi}}">{{paper.title}}</a>.
-{% elsif paper.arxiv %}
-<li><a href="http://arxiv.org/abs/{{paper.arxiv}}">{{paper.title}}</a>.
-{% else %}
-<li>{{paper.title}}.
-{% endif %}
-  {% if paper.with %}(With 
+ {% if paper.doi %}
+  <li><a href="http://dx.doi.org/{{paper.doi}}">{{paper.title}}</a>.
+ {% elsif paper.arxiv %}
+  <li><a href="http://arxiv.org/abs/{{paper.arxiv}}">{{paper.title}}</a>.
+ {% else %}
+  <li>{{paper.title}}.
+ {% endif %}
+ {% if paper.with %}(With 
   {% for person in paper.with %} {% assign id = site.data.people[person] %} 
-  {% if id.site %}<a href="{{id.site}}">{{id.name}}</a>{% else %}{{id.name}}{% endif %}{% case forloop.rindex %}{% when 1 %}){% when 2%} and {% else %},{% endcase %}
-    {% endfor %}
-  {% endif %}
+   {% if id.site %}<a href="{{id.site}}">{{id.name}}</a>{% else %}{{id.name}}{% endif %}{% case forloop.rindex %}{% when 1 %}){% when 2%} and {% else %},{% endcase %}
+  {% endfor %}
+ {% endif %}
  <br>
-{% if paper.journal %}
-<em>{{paper.journal}}</em>, vol. {{paper.volume}}, no. {{paper.number}}, ({{paper.year}}), pp. {{paper.pages}}.<br>
-{% if paper.arxiv %}<a href="http://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a>{% endif %}</li>
-{% else %}
-arXiv:{{paper.arxiv}} ({{paper.year}}), {{paper.pages}} pages.</li>
-{% else %}
-{% endif %}
+ {% if paper.journal %}
+  <em>{{paper.journal}}</em>, 
+  {% if paper.volume %}
+    vol. {{paper.volume}}, no. {{paper.number}}, ({{paper.year}}), pp. {{paper.pages}}.<br>
+  {% else %}
+   to appear. {{paper.pages}} pages.<br>
+  {% endif %}
+  {% if paper.arxiv %}
+   <a href="http://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a>
+  {% endif %}
+ </li>
+ {% else %}
+  arXiv:{{paper.arxiv}} ({{paper.year}}), {{paper.pages}} pages.</li>
+ {% endif %}
 {% endfor %}
 </ul>
