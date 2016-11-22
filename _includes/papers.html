@@ -20,12 +20,14 @@
   {% else %}
    to appear. {{paper.pages}} pages.<br>
   {% endif %}
-  {% if paper.arxiv %}
-   <a href="http://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a>
+ {% endif %}
+ {% if paper.arxiv %}
+   {% if paper.doi %}
+     <a href="http://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a>
+   {% else %}
+     arXiv:{{paper.arxiv}} ({{paper.year}}), {{paper.pages}} pages.
+   {% endif %}
   {% endif %}
  </li>
- {% else %}
-  arXiv:{{paper.arxiv}} ({{paper.year}}), {{paper.pages}} pages.</li>
- {% endif %}
 {% endfor %}
 </ul>
