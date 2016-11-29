@@ -18,14 +18,14 @@
   {% if paper.volume %}
     vol. {{paper.volume}}, no. {{paper.number}}, ({{paper.year}}), pp. {{paper.pages}}.<br>
   {% else %}
-   to appear. {{paper.pages}} pages.<br>
+   to appear.<br>
   {% endif %}
  {% endif %}
  {% if paper.arxiv %}
    {% if paper.doi %}
      <a href="http://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a>
    {% else %}
-     arXiv:{{paper.arxiv}} ({{paper.year}}), {{paper.pages}} pages.
+     arXiv:{{paper.arxiv}}, ({{paper.year}}). {{paper.pages}} pages.
    {% endif %}
   {% endif %}
  </li>
