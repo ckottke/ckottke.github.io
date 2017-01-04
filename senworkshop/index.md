@@ -27,8 +27,21 @@ developments on the geometry and physics of singular monopoles.
 - **Andy Royston** (Texas A&M), Supersymmetric gauge theory, monopole moduli space, and 'no exotics' as a generalized Sen conjecture 
 </div>
 
-## Invited Participants:
-TBA
+## Confirmed Participants:
+- Pierre Albin
+- Roger Bielawski
+- Anda Degeratu
+- Daniel Grieser
+- Derek Harland
+- Peter Hintz
+- Eugenie Hunsicker
+- Nicholas Manton
+- Richard Melrose
+- Ute Mustermann
+- Frederic Rochon
+- Andy Royston
+- Jan Swoboda
+- Xuwen Zhu
 
 ## Funding:
 Some funding is available to cover subsistence and (if funds permit) travel. Interested early career

@@ -34,7 +34,7 @@ My current research projects include
 - The study of the moduli spaces of magnetic monopoles, on R^3 (with an aim of
   compactifying the moduli spaces and proving Sen's conjecture for their L^2
 cohomology) and more general 3-manifolds with asymptotically conic ends.  Some
-of this work is joint with R. Melrose and M. Singer.
+of this work is joint with R. Melrose and M. Singer. I'm co-organizing a workshop [The Sen conjecture and beyond](senworkshop) which will take place at UCL in June 2017.
 - A construction of the Dirac operator on the free loop space of a compact
   manifold, with the goal of being able to treat it seriously as a differential
 operator and eventually to understand Witten's index formula for the elliptic
