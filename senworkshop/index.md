@@ -30,14 +30,15 @@ developments on the geometry and physics of singular monopoles.
 ## Confirmed Participants:
 - Pierre Albin
 - Roger Bielawski
+- Sergey Cherkis
 - Anda Degeratu
+- Laura Fredrickson
 - Daniel Grieser
 - Derek Harland
 - Peter Hintz
 - Eugenie Hunsicker
 - Nicholas Manton
 - Richard Melrose
-- Ute Mustermann
 - Frederic Rochon
 - Andy Royston
 - Jan Swoboda
