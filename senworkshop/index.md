@@ -33,6 +33,7 @@ developments on the geometry and physics of singular monopoles.
 - Sergey Cherkis
 - Anda Degeratu
 - Laura Fredrickson
+- Jesse Gell-Redman
 - Daniel Grieser
 - Derek Harland
 - Peter Hintz
