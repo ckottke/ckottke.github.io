@@ -3,6 +3,10 @@ layout: main
 ---
 
 # Courses at New College
+- Spring 2017:
+  - [Advanced Linear Algebra](advlinear/)
+  - [Complex Analysis](complex/)
+
 - Fall 2016:
   - [Calculus III](calc3/)
   - [Functional Analysis](functional/)
