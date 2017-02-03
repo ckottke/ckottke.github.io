@@ -11,6 +11,7 @@ Course Information
 - **Office**: HNS 104
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
+- **Course Webpage**: [http://ckottke.ncf.edu/complex/](http://ckottke.ncf.edu/complex), or Canvas
 - **Lectures**: T,Th 10:30-11:50, HNS 106
 - **Office Hours**: T,Th 4:00-5:00, W 2:30-3:30
 - **Textbook**: *Complex Analysis*, by Freitag and Busam.
@@ -28,6 +29,11 @@ differentiability and the Cauchy-Riemann equations; complex line integrals and
 Cauchy's Integral Formulas; power series and analytic continuation; Laruent series
 and meromorphic functions; the residue theorem; and if time permits, the Riemann mapping theorem.
  
+Ideally, you will have had at least one semester of Real Analysis prior to
+taking this course; we will use results about continuous functions, sequences
+and series, power series, total derivatives and the inverse function theorem. If
+you have not had a rigorous treatment of these topics, make sure you come talk to me.
+
 **Reading Assignments**: 
 A reading assignment for each class will be posted on the course webpage and in
 the Canvas course prior to each lecture. This reading should be completed

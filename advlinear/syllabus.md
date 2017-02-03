@@ -11,6 +11,7 @@ Course Information
 - **Office**: HNS 104
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
+- **Course Webpage**: [http://ckottke.ncf.edu/advlinear/](http://ckottke.ncf.edu/advlinear/)
 - **Lectures**: T,Th 9:00-10:20, Chae Auditorium (may change)
 - **Office Hours**: T,Th 4:00-5:00, W 2:30-3:30
 - **Textbook**: *Linear Algebra Done Wrong*, by Sergei Treil.
