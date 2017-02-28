@@ -40,7 +40,9 @@ developments on the geometry and physics of singular monopoles.
 - Eugenie Hunsicker
 - Nicholas Manton
 - Richard Melrose
+- Goncalo Oliveira
 - Frederic Rochon
+- Callum Ross
 - Andy Royston
 - Jan Swoboda
 - Xuwen Zhu
