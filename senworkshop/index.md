@@ -29,22 +29,35 @@ developments on the geometry and physics of singular monopoles.
 
 ## Confirmed Participants:
 - Pierre Albin
+- Dean Baskin
+- Francesco Bei
 - Roger Bielawski
+- Harry Braden
+- Santiago Cabrera
 - Sergey Cherkis
+- Josh Cork
 - Anda Degeratu
+- Andrew Dancer
 - Laura Fredrickson
+- Lorenzo Foscolo
 - Jesse Gell-Redman
 - Daniel Grieser
 - Derek Harland
-- Peter Hintz
 - Eugenie Hunsicker
+- Lukas Mueller
 - Nicholas Manton
+- Stephen McKeown
 - Richard Melrose
+- Akos Nagy
 - Goncalo Oliveira
 - Frederic Rochon
+- Nuno Romao
 - Callum Ross
 - Andy Royston
+- Raul Sanchez-Galan
+- Bernd Schroers
 - Jan Swoboda
+- Matthew Wheeler
 - Xuwen Zhu
 
 ## Funding:
