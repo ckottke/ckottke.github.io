@@ -33,11 +33,9 @@ developments on the geometry and physics of singular monopoles.
 - Pierre Albin
 - Dean Baskin
 - Francesco Bei
-- Roger Bielawski
 - Harry Braden
 - Santiago Cabrera
 - Sergey Cherkis
-- Josh Cork
 - Anda Degeratu
 - Andrew Dancer
 - Laura Fredrickson
@@ -59,12 +57,7 @@ developments on the geometry and physics of singular monopoles.
 - Raul Sanchez-Galan
 - Bernd Schroers
 - Jan Swoboda
-- Matthew Wheeler
 - Xuwen Zhu
-
-## Funding:
-Some funding is available to cover subsistence and (if funds permit) travel. Interested early career
-researchers are particularly encouraged to apply. 
 
 ## Organisers:  
 Karsten Fritzsch, Chris Kottke, Michael Singer
