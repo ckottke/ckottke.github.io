@@ -17,9 +17,6 @@ and related problems, the purpose of the Summer School and Workshop is to
 introduce and disseminate these methods, while also surveying the recent
 developments on the geometry and physics of singular monopoles.
 
-## Provisional schedule:
-[Timetable.pdf](timetable.pdf)
-
 ## Summer School Speakers:
 (Titles to be confirmed)
 <div>
