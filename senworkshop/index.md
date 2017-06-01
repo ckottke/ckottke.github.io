@@ -18,11 +18,11 @@ introduce and disseminate these methods, while also surveying the recent
 developments on the geometry and physics of singular monopoles.
 
 ## Summer School Speakers:
-(Titles to be confirmed)
+(Some titles to be confirmed)
 <div>
 - **Daniel Grieser** (Oldenburg), Introduction to analysis on manifolds with corners
 - **Pierre Albin** (UIUC), *L*<sup>2</sup> cohomology, stratified spaces and related topics
-- **Richard Melrose** (MIT),  Hilbert schemes, harmonic forms and the Vafa—Witten conjecture
+- **Richard Melrose** (MIT),  Analysis on planar Hilbert schemes
 - **Andy Royston** (Texas A&M), Supersymmetric gauge theory, monopole moduli space, and 'no exotics' as a generalized Sen conjecture 
 </div>
 
