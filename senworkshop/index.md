@@ -18,7 +18,6 @@ introduce and disseminate these methods, while also surveying the recent
 developments on the geometry and physics of singular monopoles.
 
 ## Summer School Speakers:
-(Some titles to be confirmed)
 <div>
 - **Daniel Grieser** (Oldenburg), Introduction to analysis on manifolds with corners
 - **Pierre Albin** (UIUC), *L*<sup>2</sup> cohomology, stratified spaces and related topics
