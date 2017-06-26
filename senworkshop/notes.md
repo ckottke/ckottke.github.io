@@ -16,3 +16,5 @@ title: "London Summer School and Workshop: The Sen Conjecture and Beyond"
    - [Semiclassical framed BPS states](https://arxiv.org/abs/1512.08924), Moore, Royston, Van der Bleeken.
    - [L^2 kernels of Dirac-type operators on monopole moduli spaces](https://arxiv.org/abs/1512.08923), Moore, Royston, Van der Bleeken.
 
+## Exotic vortices and their dynamics: Nick Manton
+- [Slides](VortUCL.pdf)
