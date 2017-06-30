@@ -18,3 +18,7 @@ title: "London Summer School and Workshop: The Sen Conjecture and Beyond"
 
 ## Exotic vortices and their dynamics: Nick Manton
 - [Slides](VortUCL.pdf)
+
+## Cyclic monopole chains: Derek Harland
+- [Slides](smctalkgeom.pdf)
+
