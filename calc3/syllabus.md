@@ -13,6 +13,7 @@ Calculus III: Multivariable Calculus, Fall 2017
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
 - **Office Hours**: M 4:00-5:00, W 1:00-2:00, F 11:00-12:00
+- **Course Webpage**: [http://ckottke.ncf.edu/calc3/](http://ckottke.ncf.edu/calc3), or Canvas
 - **Lectures**: MWF 10:00-10:50, LBR 248
 - **Workshop**: W 2:00-3:20, HNS 106
 - **TA**: Conor Welch, [conor.welch15@ncf.edu](mailto:conor.welch15@ncf.edu).
