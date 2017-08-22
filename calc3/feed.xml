@@ -1,0 +1,27 @@
+---
+layout: null
+title: Calculus III, Fall 2017
+directory: /calc3/
+course: calc3_sp17
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ page.title | xml_escape }}</title>
+    <description>{{ page.title | xml_escape}}</description>
+    <link>{{ page.directory | prepend: site.baseurl | prepend: site.url }}</link>
+    <atom:link href="{{ "feed.xml" | prepend: page.directory | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+   {% assign posts = site.classposts | where: "course" , page.course %}
+   {% for post in posts reversed %}
+      <item>
+	      <title>{{ post.date | date: "%a %-m/%-d"}}: {{ post.topic | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+	<link>{{ "reading.html#" | prepend: page.directory | prepend: site.baseurl |prepend: site.url | append: post.title }}</link>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
