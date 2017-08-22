@@ -8,7 +8,7 @@ layout: main
   - [Complex Analysis](complex/)
 
 - Fall 2016:
-  - [Calculus III](calc3/)
+  - [Calculus III](calc3_fa16/)
   - [Functional Analysis](functional/)
 
 # Courses at Northeastern
