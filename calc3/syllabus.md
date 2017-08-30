@@ -17,6 +17,7 @@ Calculus III: Multivariable Calculus, Fall 2017
 - **Lectures**: MWF 10:00-10:50, LBR 248
 - **Workshop**: W 2:00-3:20, HNS 106
 - **TA**: Conor Welch, [conor.welch15@ncf.edu](mailto:conor.welch15@ncf.edu).
+- **TA Review Session**: Thurs 6-8pm, HNS 106
 - **Textbook**: [Vector Calculus, by Michael Corral](http://www.mecmath.net/calc3book.pdf) (Free and open source ebook available at [http://www.mecmath.net](http://www.mecmath.net))
 
 **Course Description**: This class is a continuation of Calculus I and II. We
