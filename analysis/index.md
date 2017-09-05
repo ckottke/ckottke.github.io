@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: mooreclass
 title: Real Analysis I, Fall 2017
 ---
 
