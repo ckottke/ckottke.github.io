@@ -1,0 +1,915 @@
+\documentclass{book}
+\usepackage{amsmath,amsthm}
+\swapnumbers
+\usepackage{script} 
+\title{Real Analysis, Fall 2017}
+\begin{document}
+
+
+\maketitle
+
+%\setcounter{chapter}{-1}
+%\chapter{Preliminaries}
+
+
+\chapter{The real number line} \label{Ch:real}
+\section{Ordered Sets} \label{S:ordered}
+One basic property of many number systems (natural numbers, integers, rationals, etc) is that they are {\em ordered}, 
+so we say that ``3 is greater than 2'', and so on. 
+\begin{defn}
+A {\em total order} on a set $S$ is a relation\footnote{A relation is a
+comparision operation between two elements which evaluates to either {\em true}
+or {\em false}.} $\leq$ satisfying the following axioms:
+\begin{enumerate}
+[{\quad \bfseries (O1)}]
+\item (Reflexivity) For every element $a$, it always holds that $a \leq a$. 
+\label{I:order_ref}
+\item (Antisymmetry) If $a \leq b$ and $b \leq a$, then it must be that $a = b$.
+\label{I:order_anti}
+\item (Transitivity) If $a \leq b$ and $b \leq c$, then it holds that $a \leq c$. 
+\label{I:order_trans}
+\item (Totality) For every pair of elements $a$ and $b$, either $a \leq b$ or $b \leq a$. 
+\label{I:order_tot}
+\end{enumerate}
+We say $S$ is an {\em ordered set}.
+\label{D:order}
+\end{defn}
+
+\begin{ex}
+Find some examples of ordered sets.
+\label{Ex:ordered_ex}
+\end{ex}
+
+\begin{ex}
+Find an example of a {\em partially ordered} set---a set with a relation satisfying axioms (O\ref{I:order_ref})--(O\ref{I:order_trans}) but not (O\ref{I:order_tot}).
+\label{Ex:part_ordered_ex}
+\end{ex}
+
+\begin{prob}
+Suppose $S$ is an ordered set. Formulate a reasonable definition of strict
+inequality ($a < b$) in terms of the order relation $\leq$.  Then write
+down a definition equivalent to Definition~\ref{D:order} using strict
+inequality as the primitive relation; that is, write down a set of axioms that $<$
+should satisfy, in terms of which $\leq$ (suitably defined in terms of $<$) has properties (O\ref{I:order_ref})--(O\ref{I:order_tot}).
+\label{Pr:equiv_order}
+\end{prob}
+
+\begin{defn}
+Let $S$ be an ordered set, and $A \subseteq S$ a subset. An {\em upper bound} for $A$ is an element $u \in S$
+such that $a \leq u$ for every $a \in A$. If such an element exists, we say $A$ is {\em bounded above}. 
+
+Similarly, a {\em lower bound} for $A$ is an element $l \in S$ such that $l \leq a$ for every $a \in A$. If such a lower bound
+exists, we say $A$ is {\em bounded below}. 
+\label{D:bounded_above_below}
+\end{defn}
+
+\begin{defn}
+A {\em least upper bound} or {\em supremum} of a bounded above set $A$ is an element $u_0$ of $S$ such that
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item 
+$u_0$ is an upper bound for $A$, and
+\item
+$u_0 \leq u$ for every other upper bound $u$.
+\end{enumerate}
+We denote a supremum for $A$ (if it exists) by $\sup A$.
+
+Similarly, a {\em greatest lower bound} or {\em infimum} of a bounded below set $A$ is an element $b_0$ of $S$ such that
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item 
+$b_0$ is a lower bound for $A$, and
+\item
+$b_0 \geq b$ for every other lower bound $b$.
+\end{enumerate}
+We denote an infimum for $A$ (if it exists) by $\inf A$.
+\label{D:inf_sup}
+\end{defn}
+
+\begin{prop}
+If a supremum (or infimum) of $A$ exists, then it is unique.
+\label{P:unique_sup}
+\end{prop}
+
+\begin{prop}
+If $A$ and $B$ are subsets of an ordered set $S$ which both have a supremum and an infimum and satisfy $A \subseteq B$, then
+\begin{equation}
+	\inf B \leq \inf A \leq \sup A \leq \sup B.
+	\label{E:sup_inf_ineq}
+\end{equation}
+\label{P:inf_sup}
+\end{prop}
+
+\begin{ex}
+Let $\bbZ = \set{\ldots, -2, -1, 0, 1, 2, \ldots}$ denote the set of integers,
+with the usual order. Find some examples of subsets $A$ of $\bbZ$ such that
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item $A$ is bounded above and below.
+\item $A$ is bounded above but not below.
+\item $A$ is not bounded above and not bounded below.
+\end{enumerate}
+Which of these sets have a supremum? Which have an infimum?
+\label{Ex:sup_inf_bdd_Z}
+\end{ex}
+
+\begin{ex}
+Repeat Example \ref{Ex:sup_inf_bdd_Z} with the set $\bbQ$ of rational numbers in place of $\bbZ$. The following Lemma may be of use.
+\label{Ex:sup_inf_bdd_Q}
+\end{ex}
+
+\begin{lem}
+There exists no $q \in \bbQ$ such that $q^2 = 2$. 
+\label{L:sqrt_2_irrational}
+\end{lem}
+\begin{proof}[Proof hint:]
+Write $q = \frac a b$ in lowest terms and consider the evenness/oddness of $a$ and $b$.
+\end{proof}
+
+
+\begin{defn}
+An ordered set $S$ has the {\em least upper bound property} if every subset which is bounded
+above has a supremum. Likewise $S$ has the {\em greatest lower bound property} if every subset which is bounded
+below has an infimum.
+\label{D:lub_prop}
+\end{defn}
+
+\begin{ex}
+Does $\bbZ$ have the least upper bound property? Does $\bbQ$? Justify your answers with a proof or counterexample.
+\label{Ex:Q_Z_lub}
+\end{ex}
+
+\begin{thm}
+If $S$ has the least upper bound property, then it has the greatest lower bound property.
+\label{T:lub_implies_glb}
+\end{thm}
+
+
+\section{Fields and ordered fields} \label{S:fields}
+Of course the familiar number systems have additional structure. Besides the order, we have 
+addition, subtraction, multiplication and division.
+
+\begin{defn}
+A {\em field} is a set $\bbF$ with two binary operations\footnote{A binary operation is a function/operation taking in two elements of $\bbF$ and returning
+a third element of $\bbF$.} 
+$+$ and $\cdot$,
+called {\em addition} and {\em multiplication}, respectively, satisfying the following axioms:
+\begin{enumerate}
+[{\quad \bfseries (F1)}]
+\item (Associativity of addition) $(a + b) + c = a + (b + c)$ for all $a,b,c$ in $\bbF$.
+\label{I:field_ass_add}
+\item (Additive identity) There exists an element $0 \in \bbF$ such that $0 + a = a + 0 = a$ for all $a$.
+\label{I:field_add_id}
+\item (Additive inverses) For each $a$ in $\bbF$ there exists an element $-a$ such that $(-a) + a = a + (-a) = 0$. 
+\label{I:field_add_inv}
+\item (Commutativity of addition) $a + b = b + a$ for all $a,b$ in $\bbF$.
+\label{I:field_comm_add}
+\item (Associativity of multiplication) $(a \cdot b) \cdot c = a \cdot (b \cdot c)$ for all $a,b,c$ in $\bbF$.
+\label{I:field_ass_mul}
+\item (Multiplicative identity) There exists an element $1 \in \bbF$ such that $1 \cdot a = a \cdot 1 = a$ for all $a$.
+\label{I:field_mul_id}
+\item (Multiplicative inverses) For all $a \neq 0$, there exists an element $a^\inv$ in $\bbF$ such that $a\cdot a^\inv = a^\inv \cdot a = 1$.
+\label{I:field_mul_inv}
+\item (Commutativity of multiplication) $a\cdot b = b \cdot a$ for all $a,b$ in $\bbF$.
+\label{I:field_comm_mul}
+\item (Distributivity) $a\cdot (b + c) = a\cdot b + a \cdot c$.
+\label{I:field_dist}
+\item (Nontriviality) $0 \neq 1$. 
+\label{I:field_nondegen}
+\end{enumerate}
+It is customary to omit the $\cdot$ when writing multiplication; in other words, we usually just write $ab$ instead of $a\cdot b$. Additionally,
+we usually denote $a + (-b)$ simply by $a - b$,
+and we may also use the notation $\frac 1 a$ in place of $a^\inv$.
+It is important to note that subtraction $-$ and division $\frac \cdot \cdot$ are not really distinct operations; they are just syntactic shorthand for addition (resp.\ multiplication) by an additive (resp.\ multiplicative) inverse. 
+
+We also use the usual shorthand $a^n$ in place of $\underbrace{a\cdots a}_\text{$n$ times}$ and $na$ in place of
+$\underbrace{a + \cdots + a}_\text{$n$ times}$.
+\label{D:field}
+\end{defn}
+
+\begin{rmk}
+Though we shall be entirely concerned with fields in this course,
+you may be familiar with various mathematical objects satisfying fewer 
+of the above axioms. A set with a single operation satisfying axioms
+(F\ref{I:field_ass_add})--(F\ref{I:field_add_inv}) is a {\em group} which is said
+to be {\em commutative} or {\em abelian} if (F\ref{I:field_comm_add}) also holds.
+
+A {\em ring} is a set with two operations satisfying all of the above
+except (F\ref{I:field_mul_inv}), (F\ref{I:field_comm_mul}) and (F\ref{I:field_nondegen}). A {\em commutative ring} satisfies (F\ref{I:field_comm_mul}).
+According to some conventions, a ring need not satisfy (F\ref{I:field_mul_id}), though such ``rings
+without identity'' are sometimes cutely referred to as `{\em rng}'s. If (F\ref{I:field_mul_inv})
+holds but not (F\ref{I:field_comm_mul}), then $\bbF$ is called a {\em division
+ring}. 
+
+Axiom (F\ref{I:field_nondegen}) might be considered optional for fields, but if we allow $0 = 1$ then $\bbF$
+must be the one element set $\set 0$ (you can prove this after you prove
+Proposition~\ref{P:field_props_II} below), which for various reasons is best
+not regarded as a field.
+\end{rmk}
+
+\begin{ex}
+Come up with some examples of fields, some with infinitely many and some with
+finitely many elements. Can you construct a field with exactly two elements? Three?
+\label{Ex:field_exs}
+\end{ex}
+
+\begin{prop}
+The following properties of addition and multiplication hold in any field. (That is, they follow from the axioms above.)
+\begin{enumerate}
+[{\quad\normalfont (i)}]
+\item (Uniqueness of identities) If an element $b$ in $\bbF$ satisfies $b + a = a$ for some $a$, then $b = 0$. Likewise
+if $b$ satisfies $ba = a$ for some $a \neq 0$, then $b = 1$. 
+\item (Uniqueness of inverses) If $b$ satisfies $a + b = 0$, then $b = -a$. Likewise, if $b$ satisfies $ba = 1$ then $b = a^\inv$. 
+\item (Cancellation) If $a + c = b + c$ then $a = b$. Likewise if $c \neq 0$ and $ac = bc$, then $a = b$.
+\item (Inverse of an inverse) $-(-a) = a$ and $(a^\inv)^\inv = a$.
+\end{enumerate}
+\label{P:field_props_I}
+\end{prop}
+
+\begin{prop}
+In any field, the following properties hold.
+\begin{enumerate}
+[{\quad\normalfont (i)}]
+\item $0 a = 0$ for all $a$. 
+\item If $ab = 0$, then either $a = 0$ or $b = 0$. (We say $\bbF$ ``has no divisors of zero''.)
+\label{I:field_props_II_zerodivs}
+\item $(-a)b = a(-b) = - (ab)$ for all $a$ and $b$. In particular $-a = (-1)a$. 
+\item $(-a)(-b) = ab$ for all $a$ and $b$.
+\end{enumerate}
+\label{P:field_props_II}
+\end{prop}
+
+\begin{prob}
+In a field, show that if $b \neq 0$ and $d \neq 0$ then
+\[
+	\frac a b + \frac c d = \frac{ad + bc}{bd}.
+\]
+\label{Pr:add_fractions}
+\end{prob}
+
+\begin{defn}
+An {\em ordered field} is a field $\bbF$ equipped with a total order, so a set
+with a relation $\leq$ and two operations $+$ and $\cdot$ 
+satisfying axioms (O\ref{I:order_ref})--(O\ref{I:order_tot}) and
+(F\ref{I:field_ass_add})--(F\ref{I:field_nondegen}), which is additionally
+required to satisfy the following axioms:
+\begin{enumerate}
+[{\quad \bfseries (OF1)}]
+\item (Compatibility of order and addition) If $a \leq b$ then $a + c \leq b + c$ for any $c$.
+\label{I:of_add}
+\item (Compatibility of order and multiplication) If $a \leq b$ and $0 \leq c$, then $ac \leq bc$.
+\label{I:of_mult}
+\end{enumerate}
+\label{D:ordered_field}
+\end{defn}
+
+\begin{ex}
+Which examples from Example~\ref{Ex:field_exs} are ordered fields? In case
+there is not an obvious order, is there any order at all satisfying (OF\ref{I:of_add}) and (OF\ref{I:of_mult})?
+\label{Ex:of_exs}
+\end{ex}
+
+\begin{prop}
+The following properties always hold in an ordered field.
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item If $0 \leq a$ then $-a \leq 0$. 
+\item 
+If $0 \leq a $ and $0 \leq b$ then $0 \leq ab$. (In fact, this is equivalent to (OF\ref{I:of_mult}) and is often used
+in place of it as the other ordered field axiom).
+\item
+If $a \leq 0$ and $0 \leq b$, then $ab \leq 0$. 
+\item
+$0 \leq a^2$ for any $a$. In particular $0 < 1$. 
+\item 
+If $0 < a \leq b$ then $0 < b^\inv \leq a^\inv$. 
+\end{enumerate}
+In light of Proposition~\ref{P:field_props_II}.\eqref{I:field_props_II_zerodivs} the above identities hold with strict
+inequality $<$ used in place of inequality $\leq$. 
+\label{P:of_props}
+\end{prop}
+
+\begin{prob}
+Let $\bbF$ be an ordered field and consider the subset $Z \subset \bbF$ generated by taking $0$, $1$, $1 + 1$, $1 + 1 + 1$, etc.\ along with $-1$, $-1 - 1$, $-1 -1 -1$, etc. Show that
+this set is in bijection with the set of integers $\bbZ$. 
+
+Likewise, let $Q \subset \bbF$ be the subset generated by taking the multiplicative inverses of the nonzero elements in $Z$ along with their integer multiples. Show that this set is in bijection
+with $\bbQ$. 
+
+Thus every ordered field contains a copy of $\bbQ$, which may be regarded as the ``smallest'' possible ordered field.
+\label{Pr:Q_subfield}
+\end{prob}
+
+\begin{defn}
+Let $\bbF$ be an ordered field. The {\em absolute value} or {\em magnitude} of a number $a \in \bbF$ is defined by
+\[
+	\abs a = \begin{cases} a & \text{if $a \geq 0$}, \\ -a & \text{if $a < 0$.} \end{cases}
+\]
+\label{D:abs_value}
+\end{defn}
+
+\begin{propstar}
+The absolute value satisfies the following properties. For all $a$ and $b$ in $\bbF$:
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item $\abs a \geq 0$.
+\item $\abs a = 0$ if and only if $a = 0$.
+\item $\abs{ab} = \abs a \abs b$.  
+\item (Triangle inequality) $\abs{ a + b} \leq \abs a + \abs b$.
+\label{I:abs_triang}
+\item (Reverse triangle inequality) $\babs{\abs a - \abs b} \leq \abs{a - b}$.
+\label{I:abs_rev_triang}
+\end{enumerate}
+\label{P:abs_props}
+\end{propstar}
+
+\begin{rmk}
+Combining \eqref{I:abs_triang} and \eqref{I:abs_rev_triang} of the last proposition gives the useful strings of inequalities:
+\begin{equation}
+	\abs a - \abs b \leq \babs{ \abs a - \abs b} \leq \abs{a + b} \leq \abs a + \abs b, \quad \text{and}
+	\quad \abs a - \abs b \leq \babs{ \abs a - \abs b} \leq \abs{a - b} \leq \abs a + \abs b.
+	\label{E:full_triangle}
+\end{equation}
+\end{rmk}
+
+\begin{defn}
+The {\em distance} between numbers $a$ and $b$ in an ordered field $\bbF$ is the quantity
+\[
+	d(a,b) = \abs{a - b}.
+\]
+\label{D:distance_of}
+\end{defn}
+
+\begin{propstar}
+The distance satisfies the following properties. For all $a$, $b$, and $c$ in $\bbF$:
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item $d(a,b) \geq 0$.
+\item $d(a,b) = 0$ if and only if $a = b$. 
+\item (Symmetry) $d(a,b) = d(b,a)$.
+\item (Triangle inequality) $d(a,c) \leq d(a,b) + d(b,c)$.
+\end{enumerate}
+\label{P:distance_props_of}
+\end{propstar}
+
+\begin{lem}[Suprema/infima in an ordered field]
+Let $A$ be a bounded above subset of an ordered field. Then $u = \sup A$ if and only if 
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item  
+$a \leq u$ for all $a \in A$ (i.e., $u$ is an upper bound), and
+\item
+for every $\ve > 0$, there exists $a \in A$ such that $u - \ve < a$ (i.e., $u - \ve$ fails to be an upper bound).
+\end{enumerate}
+Similarly, if $A$ is bounded below, then $b = \inf A$ if and only if
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item  
+$b \leq a$ for all $a \in A$, and 
+\item
+for every $\ve > 0$, there exists $a \in A$ such that $a < b + \ve$.
+\end{enumerate}
+\label{L:sup_inf_characterization}
+\end{lem}
+
+\begin{defn}[$\pm \infty$ notation]
+As a notation convention, it is useful to introduce the symbols $+\infty$ and
+$-\infty$ when speaking of suprema and infima in an ordered field. We write
+$\sup A = + \infty$ if $A$ is not bounded above, and $\inf A = -\infty$ if $A$
+is not bounded below.  With these conventions $\sup A$ and $\inf A$ are always
+defined for a nonempty set $A$, and \eqref{E:sup_inf_ineq} holds identically whenever $A \subseteq B$.
+
+A more formal way to do this is to embed $\bbF$ into a larger ordered set $\ol \bbF = \bbF \cup \set{+\infty,-\infty}$ with the order
+defined so that $-\infty < a < + \infty$ for all $a \in \bbF$. Note that $\ol \bbF$ is {\em not} a field, though we may observe the following notation conventions: if
+$a > 0\in \bbF$, then
+\[
+\begin{aligned}
+	a + (+\infty) &= + \infty, &a + (-\infty) &= -\infty,
+	& a(+\infty) &= +\infty, &a(-\infty) = -\infty,
+	\\ (-a)(+\infty) &= -\infty, &(-a)(-\infty) &= +\infty,
+	& \frac{\pm a}{\pm\infty} &= 0.
+\end{aligned}
+\]
+Expressions such as $+\infty - \infty$ and $\pm\infty/\pm \infty$ are not defined.
+\label{D:pm_infty}
+\end{defn}
+
+
+\section{Completeness and the real number field} \label{S:field_complete}
+\begin{defn}
+An ordered field $\bbF$ is {\em complete} if it satisfies the least upper bound property (c.f.\ Definition~\ref{D:lub_prop}), in other words,
+if for every bounded above subset $A \subset \bbF$, the supremum (least upper bound) $\sup A$ exists in $\bbF$.
+\label{D:complete_field}
+\end{defn}
+
+
+\begin{thmdag}[Characterization/definition of $\bbR$]
+There exists a unique\footnote{Here ``uniqueness'' means the following: given two complete ordered fields $F_1$ and $F_2$, there exists an {\em isomorphism} (a bijection compatible with the order and field operations) $\phi : F_1 \to F_2$. Moreover $\phi$ is unique. Using $\phi$ we can regard $F_1$ and $F_2$ as being ``the same'' field.} complete ordered field called the {\em real numbers} and denoted by $\bbR$.
+\label{T:reals}
+\end{thmdag}
+
+\begin{rmk}
+We omit the proof of Theorem~\ref{T:reals} for now; we may come back to it
+later on. However, it is worth mentioning one construction which is possible at
+this point: define a {\em Dedekind cut} to be a subset $A \subset \bbQ$ of the rationals
+with the properties that 
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item $A$ is neither empty nor all of $\bbQ$,
+\item if $q \in A$ and $p < q$, then $p \in A$,
+\item if $q \in A$ then $q < r$ for some $r \in A$.
+\end{enumerate}
+In other words, a cut is essentially a half infinite open interval in $\bbQ$;
+take as an example $\set{q \in \bbQ : q < 2} = (-\infty, 2)$. It is 
+tempting to want to write $\set{q \in \bbQ : q < \sqrt 2}$ as another example, but this
+is ill-specified since we do not have such a number as $\sqrt 2$ at this point.
+The equivalent set may be specified as $\set{q \in \bbQ : q < 0 \text{ or }
+q^2 < 2}$. The idea here is that real numbers are represented by the ``upper endpoints'' of the cuts,
+though since these are not well-defined, the whole cut stands in as a replacement.
+
+It is then possible to define an order, addition, and multiplication on the set
+of Dedekind cuts (order and addition are straightforward; multiplication is a
+little tricky) and verify that they satisfy all the axioms of an ordered field
+along with completeness, with subfield $\bbQ$ identified with those cuts of the
+form $\set{q \in \bbQ : q < p}$ for $p \in \bbQ$.
+\end{rmk}
+
+\begin{defn}
+An ordered field $\bbF$ is {\em Archimedean} if for every $a \in \bbF$, there exists
+an integer\footnote{Here we are identifying a subset of $\bbF$ with the integers
+as in Problem~\ref{Pr:Q_subfield}.} $N$ such that $a \leq N$.
+\label{D:archimedean}
+\end{defn}
+
+\begin{exstar}
+Show that $\bbQ$ is Archimedean.
+\label{Ex:Q_Archimedean}
+\end{exstar}
+
+\begin{ex}[Research Allowed]
+Find an example of a non-Archimedean field.
+\label{Ex:non_Archimedean_field}
+\end{ex}
+
+\begin{thm}
+As a complete ordered field, $\bbR$ is Archimedean.
+\label{T:R_archimdedean}
+\end{thm}
+
+\begin{prop}
+A field is Archimedean if and only if, for every $a > 0$, there exists a positive integer $N$ such that 
+\[
+	0 < \frac 1 N < a.
+\]
+\label{P:archimedean_small}
+\end{prop}
+
+\begin{rmk}
+The Archimedean property says that a field has no ``infinitely large'' elements, and via Proposition~\ref{P:archimedean_small}, it implies
+that there are no ``infinitely small'' elements. The next result gives a technically useful if strange seeming characterization of the zero element.
+\end{rmk}
+
+\begin{cor}
+In an Archimedean field, if $0 \leq a$ and $a < \ve$ for every $0 < \ve$, then $a = 0$.
+\label{C:zero_small}
+\end{cor}
+
+\begin{thm}[Density of $\bbQ$ in $\bbR$]
+Let $a$ and $b$ be real numbers with $a < b$. Then there exists a rational number $q$ such that
+\[
+	a < q < b.
+\]
+We say $\bbQ$ is {\em dense} in $\bbR$.
+\label{T:Q_dense}
+\end{thm}
+
+\begin{rmk}
+This may be a surprising result, especially when juxtaposed with the following one.
+Recall that an infinite set is said to be {\em countable} if it is in bijection with the set $\bbN = \set{1,2,3,\ldots}$ of natural numbers. 
+\end{rmk}
+
+\begin{thm}\mbox{}
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item $\bbQ$ is countable.
+\item $\bbR$ is uncountable. 
+\end{enumerate}
+\label{T:countable_uncoutable}
+\end{thm}
+
+One more result at this point will be useful later on, though the proof is rather technical and tricky, so you may 
+go ahead and take it as given rather than trying to prove it.
+
+\begin{thmdag}[Positive $n$th roots]
+For every $y> 0$ in $\bbR$ and $n \in \bbN$, there exists a unique $x > 0$ in $\bbR$ such that $x^n = y$.
+\label{T:nthroots}
+\end{thmdag}
+\noindent The proof is obtained from the following two results, the first of which is more or less straightforward while
+the second is the tricky one.
+\begin{lem}
+For fixed $y > 0$ and $n \in \bbN$, the set $E = \set{t \in \bbR : 0 < t,\ t^n < y}$ is nonempty and bounded above.
+\label{L:nthroots1}
+\end{lem}
+\begin{lemdag}
+The element $x = \sup E$ satisfies $x^n = y$.
+\label{L:nthroots2}
+\end{lemdag}
+
+\section{Sequences of real numbers} \label{S:seqs}
+While least upper bounds give an expedient way to express the
+completeness of $\bbR$, {\em sequences} play a much more ubiquitous role in
+analysis.
+
+\begin{defn}
+A {\em sequence} of real numbers is a function\footnote{Recall that a {\em function} $f : A \to B$ is an assignment to every element $a$ of the {\em domain} $A$ an element $b = f(a)$ of the {\em target} $B$.} from $\bbN$ into $\bbR$. As a
+matter of notation, if $x : \bbN \to \bbR$ is a sequence, we prefer to write $x_n$ instead of $x(n)$, and
+denote the sequence by
+\[
+	(x_1,x_2,x_3,\ldots), 
+	\quad \text{or} \quad  
+	(x_n)_{n=1}^\infty, 
+	\quad \text{or just} \quad 
+	(x_n).
+\]
+It is permissible and often convenient
+to index a sequence starting from $0$ instead of $1$, or
+starting from a number greater than $1$. 
+\label{D:real_sequence}
+\end{defn}
+
+\begin{defn}
+A sequence $(x_n)$ in $\bbR$ is said to be 
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item {\em bounded} if there exists some $B > 0$ such that $\abs {x_n} \leq B$ for all $n$.
+\item {\em increasing} if $x_n \leq x_{n+1}$ for all $n$. It is {\em strictly increasing} if $x_n < x_{n+1}$ for all $n$. 
+\item {\em decreasing} if $x_n \geq x_{n+1}$ for all $n$. It is {\em strictly decreasing} if $x_n > x_{n+1}$ for all $n$. 
+\item {\em monotone} if it is either increasing or decreasing.
+\item {\em convergent} if there exists some $L \in \bbR$ with the following property: for every $\ve > 0$ there exists $N \in \bbN$ such that
+\[
+	\text{for all $n \geq N$,} 
+	\quad 
+	\abs{x_n - L} < \ve.
+\]
+Equivalently, for every $\ve > 0$, the interval $(L - \ve, L + \ve) \subset \bbR$ contains all but finitely many terms of the sequence.
+In this case we say $L$ is the {\em limit} of the sequence $(x_n)$ and write 
+$\lim_{n\smallto\infty} x_n = L$ or $x_n \smallto L$.
+\end{enumerate}
+\label{D:seq_properties}
+\end{defn}
+
+\begin{expn}
+Explain in plain English what is meant by the limit of a sequence. Address the order of the quantifiers (i.e., ``for all'' or ``there exists''): if the order or type of the quantifiers is changed, why is this a bad definition of limit?
+\label{Expn:limit}
+\end{expn}
+
+\begin{prop}
+The limit of a sequence, if it exists, is unique.
+\label{P:limit_unique}
+\end{prop}
+
+
+\begin{exstar}
+\mbox{}
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item Show that the constant sequence $x_n = c$ for all $n$ converges and $\lim x_n = c$.
+\item Show that $x_n = \frac{1 + 3n}{1 + 5n}$ has limit $\frac 3 5$.
+\end{enumerate}
+\label{Ex:1_over_n}
+\end{exstar}
+
+\begin{ex}
+\mbox{}
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item Show that $x_n = \frac 1 n \smallto 0$. 
+\item If $0 \leq p < 1$, show that $x_n = p^n \smallto 0$. [Hint: such $p$ can be written as $p = \frac 1{1 + a}$ for $a > 0$. The binomial estimate $(1 + a)^n \geq 1 + na$ for $a \geq 0$ is also useful here.]
+\end{enumerate}
+\label{Ex:seqs}
+\end{ex}
+
+\begin{prop}
+If a sequence converges, then it is bounded.
+\label{P:cnvgt_seq_bdd}
+\end{prop}
+
+
+\begin{thm}
+In $\bbR$, every bounded monotone sequence converges.
+\label{T:MSP}
+\end{thm}
+
+\begin{rmk}
+The previous property of $\bbR$ is referred to as the {\em monotone sequence
+property}. In fact, it is equivalent to completeness: it can be proved that an
+ordered field in which every bounded monotone sequence converges has the least upper bound property.
+\end{rmk}
+
+\begin{prob}
+Let $x_n = \sqrt{n^2 + 1} - n$. Show $(x_n)$ converges and compute its limit.
+\label{Pr:limit_renormalized}
+\end{prob}
+
+
+\begin{thm}
+Let $(x_n)$ and $(y_n)$ be convergent sequences with limits $x$ and $y$, respectively. Then
+%$(x_n + y_n)$, $(x_ny_n)$, $(-x_n)$ and (if $x > 0$ and $x_n > 0$ for all $n$) $(x_n^\inv)$ are convergent sequences and
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item $x_n + y_n \smallto x+y$.
+\item $-x_n \smallto -x$. 
+\item $x_ny_n \smallto xy$.
+\item If $x_n \neq 0$ for all $n$ and $x \neq 0$, then $x_n^\inv \smallto x^\inv$.
+\item If $x_n \leq y_n$ for all $n$, then $x \leq y$. 
+\label{I:limit_thms_ineq}
+\end{enumerate}
+\label{T:limit_thms_seqs}
+\end{thm}
+
+\begin{rmk}
+Combining the above, it follows that $x_n - y_n \smallto x - y$ and $x_n/y_n \smallto x/y$ (provided $y_n \neq 0$ and $y \neq 0$).
+\end{rmk}
+
+\begin{prob}
+Let $p(t) = a_0 + \cdots + a_l t^l$ and $q(t) = b_0 + \cdots + b_m t^m$ be
+polynomials with real coefficients, where $a_l \neq 0$ and $b_m \neq 0$. If $l \leq m$, prove that
+\[
+	\lim_{n\smallto \infty} \frac{p(n)}{q(n)} = 
+	\begin{cases} 0, & \text{if $l < m$, and} 
+	\\ a_l/b_m, & \text{if $l = m$.} 
+	\end{cases}
+\]
+\label{Pr:rational_limit}
+\end{prob}
+
+\begin{prob}
+Define a sequence inductively by setting $x_1 = \sqrt 2$ and for $n \geq 2$, $x_n = \sqrt{2 + x_{n-1}}$. Prove 
+that $(x_n)$ converges and find its limit.
+\label{Pr:inductive_sequence}
+\end{prob}
+
+\begin{exstar}
+Show that strict inequality cannot be obtained in Theorem~\ref{T:limit_thms_seqs}.\eqref{I:limit_thms_ineq}, by producing an example where $x_n < y_n$ for all $n$ but $x = y$.
+\label{Ex:strict_limit_ineq}
+\end{exstar}
+
+\begin{exstar}[Harmonic series/sequence]
+Define a sequence by $x_1 = 1$, $x_2 = 1 + \frac 1 2$, and $x_n = 1 + \cdots + \frac 1 n$. Show $(x_n)$ is monotone increasing, but unbounded above, hence
+does not converge. [Possible hint: compare to the sequence $y_1 = 1$, $y_2 = 1 + \frac 1 2$, $y_3 = 1 + \frac 1 2 + \frac 1 4$, $y_4 = 1 + \frac 1 2 + \frac 1 4 + \frac 1 4$,
+$y_5 = 1 + \frac 1 2 + \frac 1 4 + \frac 1 4 + \frac 1 8$
+etc., where $y_n$ has each term from the corresponding $x_n$ replaced by the largest power of $2^\inv$ which is less than or equal to it.]
+\label{Ex:harmonic}
+\end{exstar}
+
+The following limits are useful to know but tricky to prove at this
+point\footnote{In fact they become quite easy to prove once we have developed
+the logarithm, but we do not have this yet.}, so you can take them as given
+rather than trying to prove them.
+\begin{propdag}
+\mbox{}
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item For any $a > 0$, the sequence $a^{1/n} \smallto 1$.
+\item The sequence $n^{1/n} \smallto 1$. 
+\end{enumerate}
+\label{P:nthrootseq}
+\end{propdag}
+
+In addition to bounded monotone sequences, another very useful class of sequences which ``ought to converge'' are the {\em Cauchy sequences}.
+\begin{defn}
+A sequence $(x_n)$ is {\em Cauchy} if for all $\ve > 0$, there exists $N \in \bbN$ such that
+\begin{equation}
+	\text{for every $n, m \geq N$,}
+	\quad
+	\abs{x_n - x_m} < \ve.
+	\label{E:cauchy}
+\end{equation}
+\label{D:cauchy}
+\end{defn}
+\begin{rmk}
+Intuitively, a Cauchy sequence is one in which the {\em tails} of the sequence (i.e., the sequences $(x_n)_{n=N}^\infty$ for various $N$) become arbitrarily ``bunched up''.
+\end{rmk}
+
+\begin{prop}
+Every Cauchy sequence is bounded.
+\label{P:cauchy_bndd}
+\end{prop}
+
+\begin{prop}
+Every convergent sequence is Cauchy.
+\label{P:convergent_cauchy}
+\end{prop}
+
+The converse is not true in general; however one of the distiguishing features of $\bbR$ over $\bbQ$ as a complete
+ordered field is the following main result.
+
+\begin{thm}
+In $\bbR$, every Cauchy sequence converges.
+\label{T:R_cauchy_complete}
+\end{thm}
+\begin{proof}[Proof hint]
+For each $k$ let $a_k = \sup \set{x_n : n \geq k}$. Then $(a_k)$ is a bounded decreasing sequence. Show that $x_n \smallto a$, 
+where $a = \lim_k a_k$.
+\end{proof}
+
+\begin{rmk}
+This property is known as the {\em Cauchy completeness} of $\bbR$. It is possible to
+show that it is equivalent to both the least upper bound property and to the monotone
+sequence property.
+\end{rmk}
+
+\begin{ex}
+Show that \eqref{E:cauchy} cannot be replaced by ``for every $n \geq N$, $\abs{x_n - x_{n+1}} < \ve$'', by finding
+an example of a divergent sequence in $\bbR$ with the latter property. 
+\label{Ex:divergent_almost_cauchy}
+\end{ex}
+
+\begin{rmk}
+The previous exercise shows that it is generally not enough for pairs of
+adjacent elements in the sequence to be getting close together; rather, we need the distance between
+any pair of not-necessarily-adjacent elements in some tail of the sequence to be getting close.
+%
+On the other hand, if adjacent pairs become close fast enough, then the sequence actually is Cauchy, as the next
+result shows.
+\end{rmk}
+
+\begin{lem}
+Let $(x_n)$ be a sequence in $\bbR$ such that for all $n \in \bbN$,
+\[
+	\abs{ x_n - x_{n+1}} \leq \frac a {2^n},
+	\quad \text{for some $a > 0$.}
+\]
+Then $(x_n)$ is Cauchy, and therefore convergent. (In fact $a/2^n$ can be replaced by $a/b^n$ for any $b > 1$.)
+\label{L:suff_cauchy}
+\end{lem}
+%\begin{proof}[Proof hint:] 
+%Use the convergence of the geometric series $\sum_{n=1}^\infty 2^{-n} = 1$.
+%\end{proof}
+
+%% Proof requires geometric series
+
+\begin{rmk}
+Having discussed sequences, we can now mention two more methods of constructing $\bbR$ from $\bbQ$. In both cases we consider as elements 
+equivalence classes of sequences $(x_n)$ in $\bbQ$, with the equivalence relation $(x_n) \sim (y_n)$ if $x_n - y_n \smallto 0$.
+
+The first method uses equivalence classes of {\em bounded
+increasing sequences}, while the second method uses equivalence classes
+of {\em Cauchy sequences}. Each element $q \in \bbQ$ is represented by the
+equivalence class of the constant sequence $x_n = q$ for all $n$. 
+
+In either method, one has to define a notion of addition, multiplication, and order on
+sequences, show these are well-defined on equivalence classes, and prove that
+the set of equivalence classes satisfies all the axioms for an ordered field,
+along with some version of completeness (usually the monotone sequence property
+if you are using monotone sequences, and the Cauchy sequence property if you
+are using Cauchy sequences).
+\end{rmk}
+
+\begin{thm}[Squeeze theorem]
+Let $(x_n)$, $(y_n)$ and $(z_n)$ be sequences in $\bbR$ such that $x_n \leq y_n \leq z_n$ for all $n$, and
+suppose that $x_n \smallto l$ and $z_n \smallto l$. Then $(y_n)$ also converges and $\lim_n y_n = l$.
+\label{T:squeeze}
+\end{thm}
+
+\begin{expn}
+Explain in plain English what is the significance of the completeness of $\bbR$. Why is this a useful property to have?
+\label{Expn:completeness}
+\end{expn}
+
+\section{Subsequences} \label{S:subseqs}
+\begin{defn}
+Let $(x_n)$ be a sequence in $\bbR$. A {\em subsequence} of $(x_n)$ is a
+sequence $(x_{n_k})_{k=1}^\infty$ where $n_1 < n_2 < n_3 <\cdots$ form a strictly
+increasing sequence $(n_k)$ of natural numbers.
+
+If $x_{n_k} \smallto l$ for some subsequence $(x_{n_k})$ of $(x_n)$, we say $l$ is a {\em subsequential limit} of
+$(x_n)$. 
+\label{D:subseq}
+\end{defn}
+
+\begin{ex}
+Find examples of a non-convergent sequence $(x_n)$ with
+\begin{enumerate}
+[{\quad \normalfont (i)}]
+\item No subsequential limits.
+\item Exactly one subsequential limit.
+\item Exactly two subsequential limits.
+\item Exactly three subsequential limits.
+\item Infinitely many subsequential limits.
+\end{enumerate}
+\label{X:subseq_limits}
+\end{ex}
+
+\begin{prop}
+A number $l \in \bbR$ is a subsequential limit of a sequence $(x_n)$ if and only if, for
+every $\ve > 0$, 
+\[
+	\abs{x_n - l} < \ve
+\]
+for infinitely many $n \in \bbN$.
+\label{P:subseq_limit}
+\end{prop}
+
+\begin{prop}
+If $x_n \smallto x$, then every subsequence of $(x_n)$ converges to $x$. 
+\label{P:every_subseq_converges}
+\end{prop}
+
+\begin{prop}
+If $(x_n)$ is a Cauchy sequence (not necessarily in $\bbR$, perhaps in $\bbQ$), and $x_{n_k} \smallto x$ for some subsequence $(x_{n_k})$, then $x_n \smallto x$.
+\label{P:cauchy_plus_subseq}
+\end{prop}
+
+\begin{thm}
+Every sequence in $\bbR$ or $\bbQ$ has a monotone subsequence (either increasing or decreasing).
+\label{T:monotone_subseq}
+\end{thm}
+
+\begin{cor}
+If $(x_n)$ is a sequence in $[a,b] \subset \bbR$, for some $a \leq b$, then
+$(x_n)$ has a convergent subsequence in $\bbR$.
+\label{C:mini-HB}
+\end{cor}
+
+
+Prior to discussing limit superior and inferior, it is convenient to make the following definition. 
+\begin{defn}
+Given a sequence, we say $x_n \smallto +\infty$ if, for every $M > 0$, there exists $N \in \bbN$ such that
+\[
+	M < x_n \quad \text{for all $n \geq N$}.
+\]
+Likewise, we say $x_n \smallto - \infty$ if for every $M < 0$, there exists $N \in \bbN$ such that
+\[
+	x_n < M \quad \text{for all $n \geq N$}.
+\]
+In neither case do we regard $(x_n)$ as a convergent sequence in $\bbR$;
+however, it is possible to regard it as convergent in the {\em extended real
+numbers} $\ol \bbR = \bbR \cup \set{\pm \infty}$, regarded as an ordered set
+(but not a field) as in Definition~\ref{D:pm_infty}.
+\label{D:lim_pm_infty}
+\end{defn}
+
+\begin{prop}
+If $(x_n)$ is a monotone sequence, then $x_n \smallto l$ for some $l \in \bbR \cup \set{\pm \infty}$.
+\label{P:monotone_extended_converges}
+\end{prop}
+
+
+\begin{defn}
+Let $(x_n)$ be a sequence in $\bbR$ and let $L = \set{ l \in \bbR \cup \set{\pm
+\infty} : x_{n_k} \smallto l, \text{ for some subsequence $(x_{n_k})$}}$ be the
+set of its subsequential limits, including possibly $+\infty$ and $-\infty$.
+The {\em limit superior} of $(x_n)$ is the supremum 
+\[
+	\limsup x_n = \sup L,
+\]
+and the {\em limit inferior} of $(x_n)$ is the infimum
+\[
+	\liminf x_n = \inf L.
+\]
+\label{D:limsup}
+\end{defn}
+
+\begin{prop}
+For every sequence $(x_n)$ in $\bbR$, there exists a subsequence $(x_{n_k})$ such that
+\[
+	x_{n_k} \smallto \limsup x_n.
+\]
+Likewise, there exists a subsequence $(x_{n_k})$ such that $x_{n_k} \smallto \liminf x_n$.
+
+In other words, in the definition of limit superior, $\limsup x_n = \sup L$ and
+$\liminf x_n = \inf L$ are actually elements of $L$.
+\label{P:limsup_subseq}
+\end{prop}
+
+The next result justifies the names ``limit inferior'' and ``limit superior''.
+\begin{prop}
+An equivalent characterization of limit superior and limit inferior are as follows. Let $(x_n)$ be a real sequence
+and for each $m \in \bbN$, let $a_m = \inf \set{x_n : n \geq m}$ and $b_m = \sup \set{x_n : n \geq m}$. Then
+$a = \liminf x_n$ if and only if
+\[
+	a = \lim a_m = \textstyle \lim_m \inf \set{x_n : n \geq m} = \sup \set{\inf \set{x_n : n \geq m}}.
+\]
+Likewise, $b = \limsup x_n$ if and only if
+\[
+	b = \lim b_m = \textstyle \lim_m \sup \set{x_n : n \geq m} = \inf \set{\sup \set{x_n : n \geq m}}.
+\]
+\label{P:limsup_alt}
+\end{prop}
+
+
+\begin{prop}
+For a sequence $(x_n)$,
+\[
+	\liminf x_n \leq \limsup x_n
+\]
+with equality if and only if $(x_n)$ converges to this value.
+\label{P:limsup_ineq}
+\end{prop}
+
+\end{document}
+\section{Series} \label{S:series}
+
+\chapter{Metric space topology} \label{Ch:metric}
+\end{document}
