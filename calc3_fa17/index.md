@@ -46,7 +46,7 @@ selected from the homework problems assigned with the previous three lectures.
 
 - Exam 1: Friday, September 29
 - Exam 2: Wednesday, November 8
-- Final exam: TBD
+- Final exam: Monday, December 11 9-12 in Chae Auditorium
 
 **Assessment**: 
 Your course performance (Sat/Unsat) will be evaluated based on quizzes and exams, weighted as below.
