@@ -1,6 +1,6 @@
 ---
 date: 2017-12-06
-topic: Workshop 13: Course Review/Practice Exam Problems
+topic: "Workshop 13: Course Review/Practice Exam Problems"
 course: calc3_fa17
 ---
 
