@@ -3,9 +3,13 @@ layout: main
 ---
 
 # Courses at New College
+- Spring 2018:
+  - [PDE](pde_sp18/)
+  - [Real Analysis II](analysis_sp18/)
+
 - Fall 2017: 
-  - [Calculus III](calc3/)
-  - [Real Analysis](analysis/)
+  - [Calculus III](calc3_fa17/)
+  - [Real Analysis](analysis_fa17/)
 
 - Spring 2017:
   - [Advanced Linear Algebra](advlinear/)
