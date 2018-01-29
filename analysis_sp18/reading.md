@@ -1,7 +1,7 @@
 ---
 layout: mooreclass
 title: Real Analysis II, Spring 2018
-course: analysis_sp17
+course: analysis_sp18
 ---
 
 {% assign posts = site.classposts | where: "course" , page.course | sort: "date" %}
