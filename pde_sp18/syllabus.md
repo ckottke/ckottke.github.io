@@ -13,7 +13,7 @@ Course Information
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
 - **Course Webpage**: [http://ckottke.ncf.edu/pde/](http://ckottke.ncf.edu/pde), or Canvas
-- **Lectures**: M,Th 12:30-1:50, HNS 106
+- **Lectures**: M,Th 12:30-1:50, LBR 250
 - **Office Hours**: M,T,Th 3:30-4:30
 - **TA**: Jeremy Cohen ([jeremy.johnson14@ncf.edu](mailto:jeremy.johnson14@ncf.edu))
 - **Textbook**: *Partial Differential Equations*, by Walter Strauss. 2nd Edition
