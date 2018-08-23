@@ -17,7 +17,7 @@ Calculus III: Multivariable Calculus, Fall 2018
 - **Workshop**: W 2:00-3:20, HNS 106
 - **TA**: Rayne Craig [nikki.craig16@ncf.edu](mailto:nikki.craig16@ncf.edu)
 - **Textbook**: Calculus, by James Stewart, 8th ed.
-- **Course Webpage**: [http://ckottke.ncf.edu/calc3/](http://ckottke.ncf.edu/calc3), or Canvas
+- **Course Webpage**: [http://ckottke.ncf.edu/calc3/](http://ckottke.ncf.edu/calc3/), or Canvas
 
 **Course Description**: This class is a continuation of Calculus I and II. We
 will cover the calculus of functions of several variables and vector-valued

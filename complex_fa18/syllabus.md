@@ -11,7 +11,7 @@ Course Information
 - **Office**: HNS 104
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
-- **Course Webpage**: [http://ckottke.ncf.edu/complex/](http://ckottke.ncf.edu/complex), or Canvas
+- **Course Webpage**: [http://ckottke.ncf.edu/complex/](http://ckottke.ncf.edu/complex/), or Canvas
 - **Lectures**: MWF 9:00-9:50, LBR 248
 - **Office Hours**: Mon 3-4, Tue 1:30-2:30, Fri 11-12
 - **Textbook**: *Complex Analysis*, by Stein and Shakarchi (Princeton Lectures in Analysis Vol. II)
