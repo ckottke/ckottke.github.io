@@ -17,6 +17,7 @@ Calculus III: Multivariable Calculus, Fall 2018
 - **Workshop**: W 2:00-3:20, HNS 106
 - **TA**: Rayne Craig [nikki.craig16@ncf.edu](mailto:nikki.craig16@ncf.edu)
 - **Textbook**: Calculus, by James Stewart, 8th ed.
+- **Course Webpage**: [http://ckottke.ncf.edu/calc3/](http://ckottke.ncf.edu/calc3), or Canvas
 
 **Course Description**: This class is a continuation of Calculus I and II. We
 will cover the calculus of functions of several variables and vector-valued
@@ -72,7 +73,7 @@ meeting.
 
 | Monday | Wednesday | Friday |
 |:-----|:-----|:-----|
-| **8/27**: 12.1, 12.2, 12.3: Vectors, dot products | **8/29**: 12.4, 12.5: Cross products, lines, planes | **8/31**: 12.6: Surfaces |
+| **8/27**: 12.1-12.3: Vectors, dot products | **8/29**: 12.4, 12.5: Cross products, lines, planes | **8/31**: 12.6: Surfaces |
 | **9/1: Labor Day** | **9/5**: 13.1, 13.2: Curves and velocity | **9/7**: 13.3: Arc length |
 | **9/10**: 14.1: Multivariable functions | **9/12**: 14.2, 14.3: Limits, partial derivatives | **9/14**: 14.4, 14.5: Tangent planes, chain rule |
 | **9/17: No Class** | **9/19: No Class** | **9/21: No Class** |
