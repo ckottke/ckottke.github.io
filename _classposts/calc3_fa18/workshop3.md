@@ -1,5 +1,5 @@
 ---
-date: 2016-09-12
+date: 2018-09-12
 topic: Workshop 3
 course: calc3_fa18
 ---
