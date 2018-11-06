@@ -14,7 +14,7 @@ PhD 2010, MIT. Student of [Richard Melrose](http://math.mit.edu/~rbm).
 
 # Interests
 	
-Global, geometric and microlocal analysis; gauge theory, moduli spaces and loop spaces.
+Global analysis and topology of moduli spaces, geometric microlocal analysis, mathematical physics.
 	
 # Research
 
@@ -27,7 +27,7 @@ corners. I am especially interested in problems set within the intersection of
 analysis, geometry and topology, and in problems arising from mathematical
 physics, particularly gauge theory and string theory.
 
-Here is a (slightly out of date) [research statement](docs/research.pdf), and a [curriculum vitae](docs/kottke_cv.pdf).
+Here is a (slightly out of date) [research statement](docs/research.pdf), and an up to date [curriculum vitae](docs/kottke_cv.pdf).
 
 My current research projects include 
 
