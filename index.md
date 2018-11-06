@@ -10,7 +10,7 @@ layout: main
 
 2010-2013: Tamarkin Assistant Professor, Mathematics Department, Brown University.
 
-PhD 2010, MIT. Student of [Richard Melrose](http://math.mit.edu/~rbm).
+2010: Ph.D. Mathematics, MIT. Student of [Richard Melrose](http://math.mit.edu/~rbm).
 
 # Interests
 	
