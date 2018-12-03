@@ -45,7 +45,7 @@ selected from the homework problems from the previous three lectures.
 
 - Exam 1: Wednesday, October 3, in class
 - Exam 2: Wednesday, November 7, in class 
-- Final exam: TBD
+- Final exam: Monday, December 10, 3:30-6:30 in Heiser E168
 
 **Assessment**: 
 Your course performance (Sat/Unsat) will be evaluated based on quizzes and exams, weighted as below.
