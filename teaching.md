@@ -3,6 +3,10 @@ layout: main
 ---
 
 # Courses at New College
+- Spring 2019:
+  - [Distribution Theory](distributions_sp19/)
+  - [Writing in Mathematics](writing_sp19/)
+
 - Fall 2018:
   - [Calculus III](calc3_fa18/)
   - [Complex Analysis](complex_fa18/)
