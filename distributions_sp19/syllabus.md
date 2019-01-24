@@ -12,7 +12,7 @@ Course Information
 - **Email**: [ckottke@ncf.edu](mailto:ckottke@ncf.edu)
 - **Phone**: 914-487-4516
 - **Course Webpage**: [http://ckottke.ncf.edu/distributions/](http://ckottke.ncf.edu/distributions/), or Canvas
-- **Lectures**: Mon/Thu 2:00-3:50, HNS 106
+- **Lectures**: Mon/Thu 2:00-3:20, HNS 106
 - **Office Hours**: Mon 3:30-4:30, Wed 1:30-2:30, Thu 11-12
 - **Textbook**: [*Distributions: Theory and Applications*, by Duistermaat and Kolk](http://dx.doi.org/10.1007/978-0-8176-4675-2), Bikhauser Cornerstones series. This book is electronically available for free if you access the publisher's website via the preceding link from on campus. A hard copy has also been placed on reserve in the library.
 
@@ -62,7 +62,7 @@ number of additional problems), for students desiring an additional resource.
 Homework problems will be assigned and collected on a regular (approximately weekly) basis. You are encouraged to regard office hours as a kind of homework workshop and to attend them regularly.
 
 **Exams**: 
-There will be two exams, one at the end of each module, either oral (if class numbers permit)
+There will be two exams, one at the end of each module, either oral 
 or written. Dates are yet to be determined.
 
 **Assessment**: 
