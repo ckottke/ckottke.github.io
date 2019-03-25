@@ -60,6 +60,8 @@ layout: main
   - [Math 350](brown/350_fa10/), Honors Vector Calculus
 
 # Notes from various classes
+- [Linear Analysis on Compact Manifolds](neu/7376_sp16/lacm.pdf). Notes on elliptic theory on compact manifolds, including spectral theory, heat kernels, Weyl asymptotics,
+and a proof of the Atiyah-Singer index theorem by heat kernel methods.
 - [Products in homology and cohomology via acyclic models](docs/acyclic.pdf).
   Mostly following Bredon's *Topology and Geometry*, and used to supplement
 Hatcher's *Algebraic Topology*.
