@@ -27,8 +27,7 @@ layout: main
   - [Calculus III](calc3_fa16/)
   - [Functional Analysis](functional/)
 
-# NCF thesis students
-- For NCF students who wish to write their thesis in LaTeX, I have written a class file which will give you all the proper formatting. Feel free to reach out to me with questionsabout how to use these.
+- For New College students who wish to write their thesis in LaTeX, I have written a class file which will give you all the proper formatting. Feel free to reach out to me with questions about how to use these.
   - [ncfthesis.cls](docs/ncfthesis.cls) is the class file for formatting.
   - [template.tex](docs/template.tex) and [template.bib](docs/template.bib) are an example/template thesis and bibliography database.
 
