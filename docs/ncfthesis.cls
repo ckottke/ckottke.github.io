@@ -3,7 +3,7 @@
 %%
 % Changelog: 
 %
-% 04/11/2019 nobind option added, support for multiple sponsors
+% 04/11/2019 nobind option added, support for multiple sponsors, correct handling of two sided documents
 % 04/05/2019 Basic version
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{ncfthesis}[2019/04/11 NCF thesis class]
@@ -20,8 +20,8 @@
 
 % Library margin requirements for binding are the default
 % nobind option gives symmetric margins
-\geometry{left=1.5in, right=1in, top=1in, bottom=1in}
-\DeclareOption{nobind}{\geometry{left=1.25in, right=1.25in, top=1in, bottom=1in}}
+\geometry{inner=1.5in, outer=1in, top=1in, bottom=1in}
+\DeclareOption{nobind}{\geometry{inner=1.25in, outer=1.25in, top=1in, bottom=1in}}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}} 
 \ProcessOptions\relax
@@ -77,7 +77,7 @@ Sarasota, Florida
 
 % Abstract environment
 \renewenvironment{abstract}
-{\clearpage
+{\cleardoublepage
 \thispagestyle{plain}
 \vspace*{1in}
 \bgroup\setstretch{1} % Single spaced title and author
@@ -100,12 +100,12 @@ Sarasota, Florida
 
 % Centered dedication page
 \newenvironment{dedication}
-{\clearpage \vspace*{2in}\begin{center}\large}
+{\cleardoublepage \vspace*{2in}\begin{center}\large}
 {\end{center}\@normalsize}
 
 % Acknowledgements page (added to TOC)
 \newenvironment{acknowledgements}
-{\clearpage\vspace*{2in}
+{\cleardoublepage\vspace*{2in}
 \addcontentsline{toc}{chapter}{Acknowledgements}
 \section*{Acknowledgements}
 }{}
