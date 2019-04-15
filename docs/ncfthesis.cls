@@ -3,32 +3,34 @@
 %%
 % Changelog: 
 %
-% 04/15/2019 Default to letter paper
+% 04/15/2019 Default to letter paper, dotted signature line optional (default to solid)
 % 04/11/2019 nobind option added, support for multiple sponsors, correct handling of two sided documents
 % 04/05/2019 Basic version
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{ncfthesis}[2019/04/11 NCF thesis class]
+\ProvidesClass{ncfthesis}[2019/04/15 NCF thesis class]
  
 \LoadClass{report} % Use report class as a base
 
 \RequirePackage{geometry}
-
 \RequirePackage{setspace}
  
 % Allow for a singlespace option
 \def\@mystretch{1.5} % Default to double space
 \DeclareOption{singlespace}{\def\@mystretch{1}}
+\setstretch{\@mystretch}
 
 % Library margin requirements for binding are the default
 % nobind option gives symmetric margins
 \geometry{letterpaper, inner=1.5in, outer=1in, top=1in, bottom=1in}
 \DeclareOption{nobind}{\geometry{letterpaper, inner=1.25in, outer=1.25in, top=1in, bottom=1in}}
 
+% dots option for dotted signature line instead of solid line
+\def\@filltype{\hrulefill}
+\DeclareOption{dots}{\def\@filltype{\dotfill}}
+
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}} 
 \ProcessOptions\relax
 
-% Single or double space
-\setstretch{\@mystretch}
  
 \gdef\@degree{Bachelor of Arts}
 \newcommand\degree[1]{\gdef\@degree{#1}}
@@ -37,77 +39,76 @@
 \newcommand\degreeyear[1]{\gdef\@degreeyear{#1}}
 \newcommand\thesisdate[1]{\gdef\@thesisdate{#1}}
 
+% Signature line macro
+\newcommand\@sigline[2]{
+\vbox\bgroup\setstretch{1}
+  \noindent\@filltype
+  \\\null\hfill #1
+  \\\null\hfill #2
+\egroup}
+
 \newcommand\sponsor[2]{ % Support for multiple sponsors
 \@ifundefined{@sponsorname}{
-	\gdef\@sponsorname{#1}%\gdef\@sponsortitle{#2}
-	\gdef\@sponsorsig{\vbox\bgroup\setstretch{1}\par\noindent\dotfill\null\\{\null\hfill #1, #2}\\{\null\hfill \@thesisdate}\egroup}
+	\gdef\@sponsorname{#1}
+	\gdef\@sponsorsig{\@sigline{#1, #2}{\@thesisdate}}
 }{
 	\g@addto@macro\@sponsorname{\ and\ #1}
-	\g@addto@macro\@sponsorsig{\vfill\vbox\bgroup\setstretch{1}\par\noindent\dotfill\null\\{\null\hfill #1, #2}\\{\null\hfill \@thesisdate}\egroup}
+	\g@addto@macro\@sponsorsig{\vfill\@sigline{#1, #2}{\@thesisdate}}
 }}
 
 
-% Signature lines %%% Pushed into sponsor macro to support multiple sponsors
-%\newcommand\signature[2]{\vbox\bgroup\setstretch{1}\par\noindent\dotfill\null\\{\null\hfill #1}\\{\null\hfill #2}\egroup}
 
 % Generate the title page using vfills to fill page
-\renewcommand{\maketitle}{%
-\thispagestyle{empty} % No page number
-\vspace*{1in}
+\renewcommand{\maketitle}
+{\thispagestyle{empty} % No page number
+\vspace*{1in}         % A bit of space at the top
+\bgroup\setstretch{1} % Single spaced
 \begin{center}
-\bgroup  % Single spaced
-\setstretch{1}
 {\bf \MakeUppercase{\@title}}
 \vfill
-{\MakeUppercase{by}}
-\\ {\MakeUppercase{\@author}}
+\MakeUppercase{by}
+\\ \MakeUppercase{\@author}
 \vfill
 A Thesis
 \vfill
-Submitted to the {\@division}
+Submitted to the \@division
 \\ New College of Florida
 \\ in partial fulfillment of the requirements for the degree
-\\ {\@degree}
-\\ under the sponsorship of {\@sponsorname}
+\\ \@degree
+\\ under the sponsorship of \@sponsorname
 \vfill
 Sarasota, Florida
 \\ \@degreemonth\ \@degreeyear
-\egroup
 \end{center}
+\egroup  % End single spaced
 }
 
-% Abstract environment
+% Abstract page
 \renewenvironment{abstract}
 {\cleardoublepage
 \thispagestyle{plain}
 \vspace*{1in}
-\bgroup\setstretch{1} % Single spaced title and author
+\bgroup\setstretch{2} % Spacing for title and author
 \begin{center}
 {\large\bf \@title}
-\\[\baselineskip]
-{\large \@author}
-\\[\baselineskip]
-\@normalsize New College of Florida, \@degreeyear
+\par {\large \@author}
+\par New College of Florida, \@degreeyear
 \end{center}
-\egroup % end single spaced
+\egroup               % end extra spacing
 \vfill
 \addcontentsline{toc}{chapter}{Abstract}
 \section*{Abstract} }
-%
-{\vfill
-\@sponsorsig % Now handles multiple sponsors
-%\signature{\@sponsorname, \@sponsortitle}{\@division, \@thesisdate}
-\vfill }
+{\vfill\@sponsorsig\vfill} % Now handles multiple sponsors
 
 % Centered dedication page
 \newenvironment{dedication}
-{\cleardoublepage \vspace*{2in}\begin{center}\large}
+{\cleardoublepage\vspace*{2in}\begin{center}\large}
 {\end{center}\@normalsize}
 
 % Acknowledgements page (added to TOC)
 \newenvironment{acknowledgements}
 {\cleardoublepage\vspace*{2in}
 \addcontentsline{toc}{chapter}{Acknowledgements}
-\section*{Acknowledgements}
-}{}
+\section*{Acknowledgements} }
+{}
 
