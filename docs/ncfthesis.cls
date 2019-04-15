@@ -3,6 +3,7 @@
 %%
 % Changelog: 
 %
+% 04/15/2019 Default to letter paper
 % 04/11/2019 nobind option added, support for multiple sponsors, correct handling of two sided documents
 % 04/05/2019 Basic version
 \NeedsTeXFormat{LaTeX2e}
@@ -20,8 +21,8 @@
 
 % Library margin requirements for binding are the default
 % nobind option gives symmetric margins
-\geometry{inner=1.5in, outer=1in, top=1in, bottom=1in}
-\DeclareOption{nobind}{\geometry{inner=1.25in, outer=1.25in, top=1in, bottom=1in}}
+\geometry{letterpaper, inner=1.5in, outer=1in, top=1in, bottom=1in}
+\DeclareOption{nobind}{\geometry{letterpaper, inner=1.25in, outer=1.25in, top=1in, bottom=1in}}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}} 
 \ProcessOptions\relax
@@ -66,7 +67,7 @@ A Thesis
 Submitted to the {\@division}
 \\ New College of Florida
 \\ in partial fulfillment of the requirements for the degree
-\\ Bachelor of Arts
+\\ {\@degree}
 \\ under the sponsorship of {\@sponsorname}
 \vfill
 Sarasota, Florida
