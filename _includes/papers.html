@@ -16,7 +16,7 @@
  {% if paper.journal %}
   <em>{{paper.journal}}</em>, 
   {% if paper.volume %}
-    {{paper.volume}}({{paper.number}}){{paper.pages}}, {{paper.year}}.<br>
+    vol. {{paper.volume}}, no. {{paper.number}}, ({{paper.year}}): pp. {{paper.pages}}.<br>
   {% else %}
    to appear.<br>
   {% endif %}
@@ -28,7 +28,7 @@
      arXiv:{{paper.arxiv}}
    {% endif %}
    {% unless paper.volume %}  
-     {{paper.pages}} pages, {{paper.year}}.
+     ({{paper.year}}): {{paper.pages}} pages.
    {% endunless %}
   {% endif %}
  </li>
