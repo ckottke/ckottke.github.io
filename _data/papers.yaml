@@ -1,3 +1,9 @@
+- title: "Bigerbes"
+  arxiv: "1905.03081"
+  year: 2019
+  with: [rbm]
+  pages: 42
+
 - title: "Monopoles and the Sen Conjecture: Part I"
   arxiv: "1811.00601"
   year: 2018
