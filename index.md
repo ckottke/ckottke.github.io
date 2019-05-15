@@ -4,6 +4,8 @@ layout: main
 
 # Employment
 
+Fall 2019: Research Member, Mathematical Sciences Research Institute.
+
 2016-present: Assistant Professor of Mathematics, New College of Florida.
 
 2013-2016: Research Instructor, Mathematics Department, Northeastern University.
