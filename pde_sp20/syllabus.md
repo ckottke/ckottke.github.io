@@ -14,7 +14,7 @@ Course Information
 - **Phone**: 914-487-4516
 - **Course Webpage**: [http://ckottke.ncf.edu/pde/](http://ckottke.ncf.edu/pde), or Canvas
 - **Lectures**: M,Th 2:00-3:20, HNS 106
-- **Office Hours**: 
+- **Office Hours**: M, Th 11-12, W 2-3
 - **Textbook**: *Introduction to Partial Differential Equations*, by David Borthwick. ISBN:978-3-319-48934-6 (ebook: [ISBN:978-3-319-48936-0](http://dx.doi.org/10.1007/978-3-319-48936-0))
 
 **Course Description**:
@@ -54,7 +54,7 @@ participation and attendance will be reflected in the narrative evaluation.
 Students in need of academic accommodations for a disability may consult with the office of Student
 Disability Services (SDS) to arrange appropriate accommodations. Students are required to give
 reasonable notice prior to requesting an accommodation. Students may request an appointment with
-SDS in-person (HCL3), via phone at 941-487-4496 OR via email at disabilityservices@ncf.edu.
+SDS in-person (HCL3), via phone at 941-487-4496, or via email at [disabilityservices@ncf.edu](mailto:disabilityservices@ncf.edu).
 
 No student shall be compelled to attend class or sit for an examination at a
 day or time when they would normally be engaged in a religious observance

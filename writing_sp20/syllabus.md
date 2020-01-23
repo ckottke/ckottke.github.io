@@ -13,7 +13,7 @@ Course Information
 - **Phone**: 914-487-4516
 - **Course Webpage**: [Canvas Course](https://ncf.instructure.com/courses/4743)
 - **Meetings**: Mon/Thu 12:30-1:50, HNS 106
-- **Office Hours**:
+- **Office Hours**: Mon/Thu 11-12, W 2-3
 
 **Course Description**: 
 In this class we will analyze and practice the
