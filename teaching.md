@@ -3,6 +3,11 @@ layout: main
 ---
 
 # Courses at New College
+- Spring 2020:
+  - [PDE](pde_sp20/)
+  - [Writing in Mathematics](writing_sp20/)
+
+- Fall 2019: On leave
 - Spring 2019:
   - [Distribution Theory](distributions_sp19/)
   - [Writing in Mathematics](writing_sp19/)
@@ -28,8 +33,9 @@ layout: main
   - [Functional Analysis](functional/)
 
 - For New College students who wish to write their thesis in LaTeX, I have written a class file which will give you all the proper formatting. Feel free to reach out to me with questions about how to use these.
-  - [ncfthesis.cls](docs/ncfthesis.cls) is the class file for formatting.
-  - [template.tex](docs/template.tex) and [template.bib](docs/template.bib) are an example/template thesis and bibliography database.
+  - [ncfthesis.cls](docs/ncfthesis.cls) is the class file for formatting. You do not need to open or edit this file; it just needs to reside in the same folder as your thesis
+document.
+  - [template.tex](docs/template.tex) and [template.bib](docs/template.bib) are an template thesis source file and bibliography database for you to start from.
 
 # Courses at Northeastern
 
