@@ -14,7 +14,7 @@ Course Information
 - **Phone**: 914-487-4516
 - **Course Webpage**: [http://ckottke.ncf.edu/pde/](http://ckottke.ncf.edu/pde), or Canvas
 - **Lectures**: M,Th 2:00-3:20, HNS 106
-- **Office Hours**: M, Th 11-12, W 2-3
+- **Office Hours**: M 1-2, Th 11-12, W 2-3
 - **Textbook**: *Introduction to Partial Differential Equations*, by David Borthwick. ISBN:978-3-319-48934-6 (ebook: [ISBN:978-3-319-48936-0](http://dx.doi.org/10.1007/978-3-319-48936-0))
 
 **Course Description**:
