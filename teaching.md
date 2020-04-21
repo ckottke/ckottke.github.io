@@ -33,9 +33,11 @@ layout: main
   - [Functional Analysis](functional/)
 
 - For New College students who wish to write their thesis in LaTeX, I have written a class file which will give you all the proper formatting. Feel free to reach out to me with questions about how to use these.
-  - [ncfthesis.cls](docs/ncfthesis.cls) is the class file for formatting. You do not need to open or edit this file; it just needs to reside in the same folder as your thesis
+  - [ncfthesis.cls](https://github.com/ckottke/ncfthesis/blob/master/ncfthesis.cls) is the class file for formatting. You do not need to open or edit this file; it just needs to reside in the same folder as your thesis
 document.
-  - [template.tex](docs/template.tex) and [template.bib](docs/template.bib) are an template thesis source file and bibliography database for you to start from.
+  - [template.tex](https://github.com/ckottke/ncfthesis/blob/master/template.tex) and [template.bib](https://github.com/ckottke/ncfthesis/blob/master/template.bib) are an template thesis source file and bibliography database for you to start from.
+  - The project is also hosted on [GitHub](https://github.com/ckottke/ncfthesis).
+
 
 # Courses at Northeastern
 
