@@ -32,8 +32,9 @@ layout: main
   - [Calculus III](calc3_fa16/)
   - [Functional Analysis](functional/)
 
-- For New College students who wish to write their thesis in LaTeX, I have written a class file which will give you all the proper formatting. Feel free to reach out to me with questions about how to use these.
-  - [ncfthesis class](https://github.com/ckottke/ncfthesis/) documentation and download page on GitHub.
+# New College thesis class for LaTeX
+ For New College students who wish to write their thesis in LaTeX, I have written a class file which will give you all the proper formatting. Feel free to reach out to me with questions about how to use these.
+- [ncfthesis](https://github.com/ckottke/ncfthesis/) project page on GitHub, including [documentation](https://github.com/ckottke/ncfthesis/blob/master/README.md). A direct link to the class file is [here](https://github.com/ckottke/ncfthesis/blob/master/ncfthesis.cls).
 
 # Courses at Northeastern
 
