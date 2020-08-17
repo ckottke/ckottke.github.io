@@ -3,6 +3,10 @@ layout: main
 ---
 
 # Courses at New College
+- Fall 2020:
+  - [Calculus III](calc3_fa20)
+  - Mathematical Thinking: Patterns, Puzzles, and Exploration
+
 - Spring 2020:
   - [PDE](pde_sp20/)
   - [Writing in Mathematics](writing_sp20/)
