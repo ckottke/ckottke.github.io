@@ -3,6 +3,10 @@ layout: main
 ---
 
 # Courses at New College
+- Spring 2021:
+  - Complex Analysis
+  - Writing in Mathematics
+
 - Fall 2020:
   - [Calculus III](calc3_fa20)
   - Mathematical Thinking: Patterns, Puzzles, and Exploration

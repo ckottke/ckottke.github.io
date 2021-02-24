@@ -5,7 +5,9 @@ layout: main
 # Employment
 
 
-2016-present: Assistant Professor of Mathematics, New College of Florida.
+2021-present: Associate Professor of Mathematics, New College of Florida.
+
+2016-2021: Assistant Professor of Mathematics, New College of Florida.
 
 Fall 2019: Research Member, Mathematical Sciences Research Institute.
 
