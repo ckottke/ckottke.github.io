@@ -32,7 +32,6 @@ corners. I am especially interested in problems set within the intersection of
 analysis, geometry and topology, and in problems arising from mathematical
 physics, particularly gauge theory and string theory.
 
-Here is a (slightly out of date) [research statement](docs/research.pdf), and an up to date [curriculum vitae](docs/kottke_cv.pdf).
 
 My current research projects include 
 
@@ -55,7 +54,7 @@ anisotropic dielectric interfaces, and before that, on large scale parallel
 numerical simulation of fluid dynamics.
 
 # Publications and preprints
-[List of my arXiv preprints](http://arxiv.org/a/kottke_c_1)
+[My preprints on arXiv](http://arxiv.org/a/kottke_c_1)
 
 {% include papers.html %}
 
