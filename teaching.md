@@ -3,6 +3,10 @@ layout: main
 ---
 
 # Courses at New College
+- Fall 2021:
+  - Real Analysis I
+  - Mathematical Thinking: Patterns, Puzzles, and Exploration
+
 - Spring 2021:
   - Complex Analysis
   - Writing in Mathematics
