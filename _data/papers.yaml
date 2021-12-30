@@ -18,11 +18,14 @@
   pages: 44
 
 - title: "Bigerbes"
+  doi: 10.2140/agt.2021.21.3335
   journal: Algebraic and Geometric Topology
+  volume: 21
+  number: 7
+  year: 2021
+  pages: 3335-3399
   arxiv: "1905.03081"
-  year: 2019
   with: [rbm]
-  pages: 56
 
 - title: "Monopoles and the Sen Conjecture: Part I"
   arxiv: "1811.00601"
