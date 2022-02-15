@@ -16,7 +16,7 @@
  {% if paper.journal %}
   <em>{{paper.journal}}</em>, 
   {% if paper.volume %}
-    {{paper.volume}}({{paper.number}}):{{paper.pages}}, {{paper.year}}.<br>
+   {{paper.volume}}{% if paper.number %}({{paper.number}}){% endif %}:{{paper.pages}}, {{paper.year}}.<br>
   {% else %}
    to appear.<br>
   {% endif %}
