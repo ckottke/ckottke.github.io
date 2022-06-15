@@ -3,6 +3,11 @@ layout: main
 ---
 
 # Courses at New College
+
+- Spring 2022:
+  - Real Analysis II
+  - Discrete Mathematics
+
 - Fall 2021:
   - Real Analysis I
   - Mathematical Thinking: Patterns, Puzzles, and Exploration
