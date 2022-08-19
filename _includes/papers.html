@@ -30,7 +30,10 @@
    {% unless paper.volume %}  
      {{paper.pages}} pages, {{paper.year}}.
    {% endunless %}
-  {% endif %}
+ {% endif %}
+ {% if paper.note %}
+    <br>{{paper.note}}
+ {% endif %}
  </li>
 {% endfor %}
 </ul>
