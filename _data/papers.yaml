@@ -34,7 +34,7 @@
   pages: 3335-3399
   arxiv: "1905.03081"
   with: [rbm]
-  note: "The published version contains an error which is corrected by the current version on arXiv"
+  note: "The published version contains an error which is corrected by the current version on arXiv."
 
 - title: "Monopoles and the Sen Conjecture: Part I"
   arxiv: "1811.00601"
