@@ -76,12 +76,6 @@
   pages: 818-834
   arxiv: "1310.2974"
 
-- title: Equivalence of string and fusion loop-spin structures
-  with: [rbm]
-  arxiv: "1309.0210"
-  year: 2013
-  pages: 48
-
 - title: Loop-fusion cohomology and transgression
   doi: 10.4310/MRL.2015.v22.n4.a11
   with: [rbm]
@@ -91,6 +85,12 @@
   year: 2015
   pages: 1177-1192
   arxiv: "1309.7674"
+
+- title: Equivalence of string and fusion loop-spin structures
+  with: [rbm]
+  arxiv: "1309.0210"
+  year: 2013
+  pages: 48
 
 - title: A Callias-type index theorem with degenerate potentials
   doi: 10.1080/03605302.2014.942740
