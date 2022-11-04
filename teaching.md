@@ -3,6 +3,9 @@ layout: main
 ---
 
 # Courses at New College
+- Fall 2022:
+  - Calculus With Theory I
+  - Mathematical Thinking: Patterns, Puzzles, and Exploration
 
 - Spring 2022:
   - Real Analysis II
