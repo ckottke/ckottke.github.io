@@ -52,11 +52,14 @@
   pages: 4067-4081
 
 - title: Partial compactification of monopoles and metric asymptotics
+  doi: "10.1090/memo/1383"
   journal: Memoirs of the AMS
+  volume: 280
+  number: 1383
   arxiv: "1512.02979"
   year: 2015
   with: [mas]
-  pages: 113
+  pages: 124
 
 - title: Blow-up in manifolds with generalized corners
   doi: 10.1093/imrn/rnw312
