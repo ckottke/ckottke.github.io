@@ -3,6 +3,14 @@ layout: main
 ---
 
 # Courses at New College
+- Spring 2024:
+  - Real Analysis II
+  - Discrete Mathematics
+
+- Fall 2023:
+  - Real Analysis I
+  - Mathematical Thinking: Patterns, Puzzles, and Exploration
+
 - Spring 2023:
   - Calculus With Theory II
   - Writing in Mathematics
