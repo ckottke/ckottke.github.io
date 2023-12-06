@@ -1,9 +1,12 @@
 - title: "Products of manifolds with fibered corners"
   journal: "Annals of Global Analysis and Geometry"
+  doi: "10.1007/s10455-023-09912-1"
+  volume: 64
+  number: 9
   arxiv: "2206.07262"
-  year: 2022
+  year: 2023
   with: [fr]
-  pages: 55
+  pages: 1-61
 
 - title: "L2-cohomology of quasi-fibered boundary metrics"
   arxiv: "2103.16655"
