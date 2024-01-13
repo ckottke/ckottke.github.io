@@ -3,15 +3,16 @@ layout: conference2
 title: "Celebrating Singularity: A conference in honor of Richard Melrose"
 ---
 
+## Information
+This workshop will celebrate the legacy of Richard Melrose of MIT by bringing together a number of his students to present their recent work on the occasion of his retirement.
+
 ## When/Where
 January 20-21, 2024
 
 New College of Florida, Sarasota
 
-## Information:
-This workshop will celebrate the legacy of Richard Melrose of MIT by bringing together a number of his students to present their recent work on the occasion of his retirement.
 
-## Participants:
+## Participants
 - Tanya Christiansen, University of Missouri
 - Julian Edward, Florida International University
 - Rafe Mazzeo, Stanford University
@@ -24,7 +25,7 @@ This workshop will celebrate the legacy of Richard Melrose of MIT by bringing to
 
 
 ## Organisers:  
-Chris Kottke, Pat McDonald
+Chris Kottke, Pat McDonald, New College of Florida
 
 
 
