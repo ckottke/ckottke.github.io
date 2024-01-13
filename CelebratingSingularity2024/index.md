@@ -15,10 +15,11 @@ January 20-21, 2024
 New College of Florida, Sarasota
 
 
-## Speakers
+## Participants
 - Tanya Christiansen, University of Missouri
 - Julian Edward, Florida International University
 - Rafe Mazzeo, Stanford University
+- Edith Mooers, Strengthening Coalition Capabilities
 - Frédéric Rochon, University of Quebec at Montreal
 - Antonio Sá Baretto, Purdue University
 - Fang Wang, Shanghai Jiao Tong University
