@@ -4,7 +4,7 @@ title: "Celebrating Singularity: A conference in honor of Richard Melrose"
 ---
 
 {::options parse_block_html="true" /}
-<img align="right" src="Richard_Melrose.jpg">
+<img align="right" width="200px" src="Richard_Melrose.jpg">
 
 ## Information
 This workshop will celebrate the legacy of Richard Melrose of MIT by bringing together a number of his students to present their recent work on the occasion of his retirement.
@@ -27,7 +27,7 @@ New College of Florida, Sarasota
 - Maciej Zworski, University of California Berkeley
 
 
-## Organisers:  
+## Organizers  
 Chris Kottke, Pat McDonald, New College of Florida
 
 
