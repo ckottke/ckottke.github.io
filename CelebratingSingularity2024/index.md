@@ -19,7 +19,7 @@ New College of Florida, Sarasota
 - Tanya Christiansen, University of Missouri
 - Julian Edward, Florida International University
 - Rafe Mazzeo, Stanford University
-- Edith Mooers, Strengthening Coalition Capabilities
+- Edith Mooers, The MITRE Corporation
 - Frédéric Rochon, University of Quebec at Montreal
 - Antonio Sá Baretto, Purdue University
 - Fang Wang, Shanghai Jiao Tong University
