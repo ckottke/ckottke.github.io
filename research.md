@@ -58,6 +58,10 @@ numerical simulation of fluid dynamics.
 
 {% include papers.html %}
 
+# Links to conferences organized
+
+- [The Sen conjecture and beyond](senworkshop) June 2017
+- [Celebrating Singularity: a conference in honor of Richard Melrose](CelebratingSingularity2024) January 2024
 
 # Notes & other writings
 		
