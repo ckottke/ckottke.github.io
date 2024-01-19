@@ -16,6 +16,7 @@ New College of Florida, Sarasota
 
 
 ## Participants
+- Richard Melrose, MIT
 - Tanya Christiansen, University of Missouri
 - Julian Edward, Florida International University
 - Rafe Mazzeo, Stanford University
