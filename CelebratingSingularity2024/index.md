@@ -4,7 +4,7 @@ title: "Celebrating Singularity: A conference in honor of Richard Melrose"
 ---
 
 {::options parse_block_html="true" /}
-<img align="right" width="200px" src="Richard_Melrose.jpg">
+<img align="right"  src="MelroseDinner.jpg">
 
 ## Information
 This workshop will celebrate the legacy of Richard Melrose of MIT by bringing together a number of his students to present their recent work on the occasion of his retirement.
@@ -14,8 +14,6 @@ January 20-21, 2024
 
 New College of Florida, Sarasota
 
-{::options parse_block_html="true" /}
-<img align="right" src="MelroseDinnner.jpg">
 
 ## Participants
 - Richard Melrose, MIT
