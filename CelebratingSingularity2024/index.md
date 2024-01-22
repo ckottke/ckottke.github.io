@@ -4,7 +4,7 @@ title: "Celebrating Singularity: A conference in honor of Richard Melrose"
 ---
 
 {::options parse_block_html="true" /}
-<img align="right"  src="MelroseDinner.jpg">
+<img align="right" width="400px" src="MelroseDinner.jpg">
 
 ## Information
 This workshop will celebrate the legacy of Richard Melrose of MIT by bringing together a number of his students to present their recent work on the occasion of his retirement.
