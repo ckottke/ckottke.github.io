@@ -14,6 +14,8 @@ January 20-21, 2024
 
 New College of Florida, Sarasota
 
+{::options parse_block_html="true" /}
+<img align="right" src="MelroseDinnner.jpg">
 
 ## Participants
 - Richard Melrose, MIT
