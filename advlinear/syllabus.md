@@ -68,7 +68,7 @@ accommodations because of a disability must work with the Counseling and
 Wellness Center, which will establish the need for specific accommodations and
 communicate them to the instructor.
 
-No student shall be compelled to attend class or sit for an examination at a
+No  student shall be compelled to attend class or sit for an examination at a
 day or time when he or she would normally be engaged in a religious observance
 or on a day or time prohibited by his or her religious belief.  Students are
 expected to notify their instructors if they intend to be absent for a class or
