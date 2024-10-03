@@ -3,6 +3,7 @@ layout: main
 ---
 
 # Courses at New College
+
 - Fall 2024:
   - Advanced Linear Algebra
   - Mathematical Thinking: Patterns, Puzzles, and Exploration
