@@ -4,19 +4,19 @@ kf:
 
 rbm:
   name: R. Melrose
-  site: http://math.mit.edu/~rbm/
+  site: https://math.mit.edu/~rbm/
 
 mas:
   name: M. Singer
-  site: http://www.homepages.ucl.ac.uk/~ucahasi/ 
+  site: https://www.homepages.ucl.ac.uk/~ucahasi/ 
 
 afo:
   name: A.F. Oskooi
-  site: http://ab-initio.mit.edu/~oskooi/
+  site: https://ab-initio.mit.edu/~oskooi/
 
 sj:
   name: S. Johnson
-  site: http://math.mit.edu/~stevenj/
+  site: https://math.mit.edu/~stevenj/
 
 bb:
   name: B. Boghosian 

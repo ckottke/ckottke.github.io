@@ -23,38 +23,47 @@ Global analysis and topology of moduli spaces, geometric microlocal analysis, ma
 	
 # Research
 
-My research broadly concerns geometric moduli spaces and topological
-invariants, especially those involving noncompact and singular spaces, with an
-approach through the analysis of partial differential equations. I specialize
-in the methods of geometric microlocal analysis (pseudodifferential and Fourier
-integral operators on manifolds), index theory and analysis on manifolds with
-corners. I am especially interested in problems set within the intersection of
-analysis, geometry and topology, and in problems arising from mathematical
+I work primarily in [geometric analysis](https://en.wikipedia.org/wiki/Geometric_analysis) and [gauge theory](https://en.wikipedia.org/wiki/Gauge_theory_(mathematics)),
+with a focus on noncompact and singular spaces.
+I specialize in the methods of microlocal analysis (pseudodifferential 
+operators on manifolds), index theory, and analysis on manifolds with
+corners. I am particularly interested in problems set within the intersection of
+analysis, geometry, and topology, and in problems arising from mathematical
 physics, particularly gauge theory and string theory.
 
 
 My current research projects include 
 
-- The study of the moduli spaces of magnetic monopoles, on R^3 (with an aim of
-  compactifying the moduli spaces and proving Sen's conjecture for their L^2
-cohomology) and more general 3-manifolds with asymptotically conic ends.  Some
-of this work is joint with K. Fritzsch and M. Singer. I co-organized a workshop [The Sen conjecture and beyond](senworkshop/) which took place at UCL in June 2017.
-- A construction of the Dirac operator on the free loop space of a compact
-  manifold, with the goal of being able to treat it seriously as a differential
-operator and eventually to understand Witten's index formula for the elliptic
-genus. Joint with R. Melrose.
-- A resolution theory in the category of manifolds with (possibly generalized)
-  corners, which is related to the algebro-geometric theory of logarithmic
-geometry (itself a generalization of toric geometry and toroidal embeddings).
-Some of this work is joint with R. Melrose.
+- Analysis of noncompact [hyperkahler manifolds](https://en.wikipedia.org/wiki/Hyperk%C3%A4hler_manifold).
+Examples of these include moduli spaces of [magnetic monopoles](https://en.wikipedia.org/wiki/Bogomolny_equations) on R^3, 
+[Higgs bundles](https://en.wikipedia.org/wiki/Hitchin's_equations) on surfaces, and 
+Nakajima quiver varieties, including Hilbert schemes on C^2.
+In collaboration with [{{site.data.people[fr].name}}]({{site.data.people[fr].site}}), I have developed
+a framework for analysis on many of these spaces as 'quasi-fibered boundary (QFB)' manifolds,
+which has led to progress (and in some cases resolution) of long standing conjectures
+for their [L^2-cohomology](https://en.wikipedia.org/wiki/L%C2%B2_cohomology).
+- As part of the above, constructing [compactifications](https://en.wikipedia.org/wiki/Compactification_(mathematics)) of the spaces in which the metrics have good behavior 
+(i.e., asymptotic expansions) near infinity. My work on the compactification
+of magnetic monopole moduli spaces is variously joint with {{site.data.people[kf].name}}, 
+[{{site.data.people[ms].name}}]({{site.data.people[ms].site}}), and 
+[{{site.data.people[rbm].name}}]({{site.data.people[rbm].site}}).
+- A construction of the Dirac operator on the free [loop space](https://en.wikipedia.org/wiki/Loop_space) of a compact manifold, with the goal of being able to treat it seriously as a differential
+operator and eventually to understand Witten's index formula for the [elliptic
+genus](https://en.wikipedia.org/wiki/Genus_of_a_multiplicative_sequence#Witten_genus)
+of a [string manifold](https://en.wikipedia.org/wiki/String_group). This is joint with [{{site.data.people[rbm].name}}]({{site.data.people[rbm].site}}).
+As part of this project we developed an alternative approach to higher [gerbes](https://en.wikipedia.org/wiki/Bundle_gerbe) called 'bigerbes' ('multigerbes' in general).
+- Various foundational projects involving categories of manifolds with corners and their
+generalizations. These include manifolds with 'generalized corners' (as defined by D. Joyce),
+which bring together ideas from [logarithmic algebraic geometry](https://en.wikipedia.org/wiki/Log_structure) and manifolds with corners, and manifolds with 'fibered corners', which are equivalent
+to a suitable category of [stratified spaces](https://en.wikipedia.org/wiki/Thom%E2%80%93Mather_stratified_space). In these contexts I am interested in questions about resolution of singularities
+as well as the existence of categorical constructions like pullbacks, with a goal
+of bringing problems on singular spaces into a framework suitable for geometric analysis.
 
-
-Previously, I did some work in applied mathematics on perturbation theory for
-anisotropic dielectric interfaces, and before that, on large scale parallel
+Long ago, as a graduate student I did some work in applied mathematics on perturbation theory for
+anisotropic dielectric interfaces, and before that as an undergraduate, on large scale parallel
 numerical simulation of fluid dynamics.
 
 # Publications and preprints
-[My preprints on arXiv](http://arxiv.org/a/kottke_c_1)
 
 {% include papers.html %}
 

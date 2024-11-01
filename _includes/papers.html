@@ -1,9 +1,9 @@
 <ul>
 {% for paper in site.data.papers %}
  {% if paper.doi %}
-  <li><a href="http://dx.doi.org/{{paper.doi}}">{{paper.title}}</a>.
+  <li><a href="https://dx.doi.org/{{paper.doi}}">{{paper.title}}</a>.
  {% elsif paper.arxiv %}
-  <li><a href="http://arxiv.org/abs/{{paper.arxiv}}">{{paper.title}}</a>.
+  <li><a href="https://arxiv.org/abs/{{paper.arxiv}}">{{paper.title}}</a>.
  {% else %}
   <li>{{paper.title}}.
  {% endif %}
@@ -23,7 +23,7 @@
  {% endif %}
  {% if paper.arxiv %}
    {% if paper.doi %}
-     <a href="http://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a>
+     <a href="https://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a>
    {% else %}
      arXiv:{{paper.arxiv}}
    {% endif %}
