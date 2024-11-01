@@ -17,11 +17,12 @@ a:visited {
 
 a:hover {
 	text-decoration:none;
-	color:#009;
+	color:#007;
 }
 
 a:active {
 	text-decoration:none;
+	color:#007;
 }
 
 #outcontainer {
