@@ -35,9 +35,10 @@ a:active {
 	margin-left:150px;
 	font-size:14pt;
 	text-align:right;
+	font-weight:bold;
+	/*font-variant: small-caps;*/
 	/*text-transform:uppercase;*/
-	font-variant: small-caps; 
-	letter-spacing:0.2em;
+	/*letter-spacing:0.2em;*/
 	/*float:right;*/
 	/*position:absolute;
 	top:0;
@@ -81,7 +82,8 @@ a:active {
 	border-width:2px;*/
 	background-color:#37c;
 	text-decoration:none;
-	font-variant: small-caps;
+	font-weight:bold;
+	/*font-variant: small-caps;*/
 	font-size:16pt;
 }
 #nav li a:hover {
@@ -108,7 +110,8 @@ a:active {
 #content h1 {
 	font-size:14pt;
 	color:#333;
-	font-variant: small-caps; 
+	font-weight:bold;
+	/*font-variant: small-caps; */
 }
 #content p {
 	padding-left:1em;
