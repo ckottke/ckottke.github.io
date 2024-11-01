@@ -35,10 +35,10 @@ a:active {
 	margin-left:150px;
 	font-size:14pt;
 	text-align:right;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	/*font-variant: small-caps;*/
 	/*text-transform:uppercase;*/
-	/*letter-spacing:0.2em;*/
+	letter-spacing:0.1em;
 	/*float:right;*/
 	/*position:absolute;
 	top:0;
@@ -82,7 +82,7 @@ a:active {
 	border-width:2px;*/
 	background-color:#37c;
 	text-decoration:none;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	/*font-variant: small-caps;*/
 	font-size:16pt;
 }
