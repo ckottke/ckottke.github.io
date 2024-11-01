@@ -7,22 +7,21 @@ body {
 
 a:link {
 	text-decoration:none;
-	color:#00e;
+	color:#37c;
 }
 
 a:visited {
 	text-decoration:none;
-	color:#00a;
+	color:#37c;
 }
 
 a:hover {
 	text-decoration:none;
-	color:#007;
+	color:#146;
 }
 
 a:active {
 	text-decoration:none;
-	color:#007;
 }
 
 #outcontainer {
@@ -63,7 +62,7 @@ a:active {
 	list-style:none;
 	padding:0;
 	margin:0;
-	background-color:#3175b7;
+	background-color:#37c;
 	/*position:absolute;
 	top:30px;
 	left:0;
@@ -80,19 +79,19 @@ a:active {
 	border-right-style:solid;
 	border-color:#fff;
 	border-width:2px;*/
-	background-color:#3175b7;
+	background-color:#37c;
 	text-decoration:none;
 	font-variant: small-caps;
 	font-size:16pt;
 }
 #nav li a:hover {
 	color:#fff;
-	background-color:#115597;
+	background-color:#146;
 }
 
 #selected a {
 	color:#fff;
-	background-color:#115597;
+	background-color:#146;
 }
 
 
