@@ -38,19 +38,18 @@ My current research projects include
 Examples of these include moduli spaces of [magnetic monopoles](https://en.wikipedia.org/wiki/Bogomolny_equations) on R^3, 
 [Higgs bundles](https://en.wikipedia.org/wiki/Hitchin's_equations) on surfaces, and 
 Nakajima quiver varieties, including Hilbert schemes on C^2.
-In collaboration with [{{site.data.people[fr].name}}]({{site.data.people[fr].site}}), I have developed
+In collaboration with F. Rochon, I have developed
 a framework for analysis on many of these spaces as 'quasi-fibered boundary (QFB)' manifolds,
 which has led to progress (and in some cases resolution) of long standing conjectures
 for their [L^2-cohomology](https://en.wikipedia.org/wiki/L%C2%B2_cohomology).
 - As part of the above, constructing [compactifications](https://en.wikipedia.org/wiki/Compactification_(mathematics)) of the spaces in which the metrics have good behavior 
 (i.e., asymptotic expansions) near infinity. My work on the compactification
-of magnetic monopole moduli spaces is variously joint with {{site.data.people[kf].name}}, 
-[{{site.data.people[ms].name}}]({{site.data.people[ms].site}}), and 
-[{{site.data.people[rbm].name}}]({{site.data.people[rbm].site}}).
+of magnetic monopole moduli spaces is variously joint with K. Fritzsch,
+M. Singer, and R. Melrose.
 - A construction of the Dirac operator on the free [loop space](https://en.wikipedia.org/wiki/Loop_space) of a compact manifold, with the goal of being able to treat it seriously as a differential
 operator and eventually to understand Witten's index formula for the [elliptic
 genus](https://en.wikipedia.org/wiki/Genus_of_a_multiplicative_sequence#Witten_genus)
-of a [string manifold](https://en.wikipedia.org/wiki/String_group). This is joint with [{{site.data.people[rbm].name}}]({{site.data.people[rbm].site}}).
+of a [string manifold](https://en.wikipedia.org/wiki/String_group). This is joint with R. Melrose.
 As part of this project we developed an alternative approach to higher [gerbes](https://en.wikipedia.org/wiki/Bundle_gerbe) called 'bigerbes' ('multigerbes' in general).
 - Various foundational projects involving categories of manifolds with corners and their
 generalizations. These include manifolds with 'generalized corners' (as defined by D. Joyce),
