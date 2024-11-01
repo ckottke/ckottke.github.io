@@ -37,7 +37,7 @@ My current research projects include
 - Analysis of noncompact [hyperkahler manifolds](https://en.wikipedia.org/wiki/Hyperk%C3%A4hler_manifold).
 Examples of these include moduli spaces of [magnetic monopoles](https://en.wikipedia.org/wiki/Bogomolny_equations) on R^3, 
 [Higgs bundles](https://en.wikipedia.org/wiki/Hitchin's_equations) on surfaces, and 
-Nakajima quiver varieties, including Hilbert schemes on C^2.
+Nakajima quiver varieties, including Hilbert schemes of points on C^2.
 In collaboration with F. Rochon, I have developed
 a framework for analysis on many of these spaces as 'quasi-fibered boundary (QFB)' manifolds,
 which has led to progress (and in some cases resolution) of long standing conjectures
