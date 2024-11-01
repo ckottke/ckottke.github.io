@@ -5,6 +5,12 @@ body {
 	position:relative;
 }
 
+a {
+	text-decoration:none;
+	font-weight:normal;
+	color:#00e;
+}
+
 #outcontainer {
 	width:100%;
 	margin-left:-150px;
