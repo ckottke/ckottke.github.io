@@ -6,8 +6,8 @@ layout: main
 
 I am an Associate Professor of Mathematics at [New College of Florida](https://www.ncf.edu) in Sarasota.
 I'm originally from Colorado and spent many years living in the greater Boston area.
-I attended [Tufts University](https://www.tufts.edu) (interspersed with a couple years at the [Berklee College of Music](https://www.berklee.edu) for my undergraduate
-degree and [MIT](https://math.mit.edu) for my PhD, and had postdoctoral positions at [Brown University](https://www.brown.edu) and [Northeastern University](https://www.northeastern.edu)
+I attended [Tufts University](https://www.tufts.edu) (interspersed with a couple years at the [Berklee College of Music](https://www.berklee.edu)) for my undergraduate
+degree and [MIT](https://math.mit.edu) for my PhD, and had postdoctoral positions at [Brown University](https://www.brown.edu) and [Northeastern University](https://www.northeastern.edu).
 
 My [research](research.html) expertise is in geometric analysis, where I am interested
 in a number of topics involving geometry, analysis, topology 
@@ -29,5 +29,5 @@ Fall 2019: Research Member, Mathematical Sciences Research Institute.
 
 2010: Ph.D. Mathematics, MIT. Student of [Richard Melrose](http://math.mit.edu/~rbm).
 
-2004: B.A. Mathematics, Physics, Tufts University.
+2004: B.A. Mathematics & Physics, Tufts University.
 

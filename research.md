@@ -2,21 +2,6 @@
 layout: main
 ---
 
-# Employment
-
-
-2021-present: Associate Professor of Mathematics, New College of Florida.
-
-2016-2021: Assistant Professor of Mathematics, New College of Florida.
-
-Fall 2019: Research Member, Mathematical Sciences Research Institute.
-
-2013-2016: Research Instructor, Mathematics Department, Northeastern University.
-
-2010-2013: Tamarkin Assistant Professor, Mathematics Department, Brown University.
-
-2010: Ph.D. Mathematics, MIT. Student of [Richard Melrose](http://math.mit.edu/~rbm).
-
 # Interests
 	
 Global analysis and topology of moduli spaces, geometric microlocal analysis, mathematical physics.
