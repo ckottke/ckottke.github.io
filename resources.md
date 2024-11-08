@@ -16,7 +16,7 @@ layout: main
 
 [AMS: Applying to Graduate School](https://www.ams.org/learning-careers/students/applying)
 
-[GRE Math subject test fact sheet](https://www.ams.org/learning-careers/students/applying)
+[GRE Math subject test fact sheet](https://www.ets.org/content/dam/ets-org/pdfs/gre/fact-sheet-math.pdf)
 
 [GRE Math subject test practice book](https://www.ets.org/content/dam/ets-org/pdfs/gre/practice-book-math.pdf)
 
