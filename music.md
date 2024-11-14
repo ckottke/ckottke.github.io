@@ -5,7 +5,7 @@ layout: main
 # Music
 
 As a jazz trumpet player I perform occasionally with several local groups in Sarasota, including
-- [SRQuintet](https://www.facebook.com/profile.php?id=61567825756184) (check out our [Studio Sessions recording with WUSF](https://www.youtube.com/watch?v=PWfuHWI1ydc) on Youtube)
+- [SRQuintet](https://www.facebook.com/profile.php?id=61567825756184) (check out our [Studio Sessions recording with WUSF](https://www.youtube.com/watch?v=vDAxqjXfAp4) on Youtube)
 - [Sarasota Jazz Project](https://www.sarasotajazzproject.org/)
 
 
