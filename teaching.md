@@ -4,6 +4,10 @@ layout: main
 
 # Courses at New College
 
+- Spring 2025:
+  - Calculus 1
+  - Writing in Mathematics
+
 - Fall 2024:
   - Advanced Linear Algebra
   - Mathematical Thinking: Patterns, Puzzles, and Exploration
