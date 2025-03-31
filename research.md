@@ -55,6 +55,7 @@ numerical simulation of fluid dynamics.
 
 - [The Sen conjecture and beyond](senworkshop/) June 2017
 - [Celebrating Singularity: a conference in honor of Richard Melrose](CelebratingSingularity2024/) January 2024
+- [Modern Musings on Monopoles](https://scgp.stonybrook.edu/archives/45383), October 2025
 
 # Notes & other writings
 		
