@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
         Chris Kottke's academic webpage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ckottke.ncf.edu" # the base hostname & protocol for your site
+url: "http://ckottke.github.io" # the base hostname & protocol for your site
 
 collections:
 - classposts
