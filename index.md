@@ -13,7 +13,7 @@ and mathematical physics. I [teach](teaching.html) all kinds of subjects at all 
 I'm originally from Colorado and spent many years living in the greater Boston area.
 I attended [Tufts University](https://www.tufts.edu) (interspersed with a couple years at the [Berklee College of Music](https://www.berklee.edu)) for my undergraduate
 degree and [MIT](https://math.mit.edu) for my PhD, and I held postdoctoral positions at [Brown University](https://www.brown.edu) and [Northeastern University](https://www.northeastern.edu).
-Prior to coming to Reed, I was a faculty member for nearly a decade at [New College of Florida](https://www.ncf.edu) in Sarasota.
+Prior to coming to Reed, I was a faculty member at [New College of Florida](https://www.ncf.edu) in Sarasota for nearly a decade.
 
 Outside of mathematics, I enjoy music, cooking, and the outdoors.
 
