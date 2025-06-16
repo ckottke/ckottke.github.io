@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Chris Kottke, Associate Professor of Mathematics, New College of Florida
-email: ckottke@ncf.edu
+title: Chris Kottke, Professor of Mathematics, Reed College
+email: ckottke@reed.edu
 description: > # this means to ignore newlines until "baseurl:"
 
         Chris Kottke's academic webpage

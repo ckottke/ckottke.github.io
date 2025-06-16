@@ -53,6 +53,7 @@ numerical simulation of fluid dynamics.
 
 # Links to conferences organized
 
+- [Modern Musings on Monpoles](https://scgp.stonybrook.edu/archives/45383) October 2025
 - [The Sen conjecture and beyond](senworkshop/) June 2017
 - [Celebrating Singularity: a conference in honor of Richard Melrose](CelebratingSingularity2024/) January 2024
 - [Modern Musings on Monopoles](https://scgp.stonybrook.edu/archives/45383), October 2025
