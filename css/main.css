@@ -58,6 +58,10 @@ a:active {
 	font-size:0.9em;
 }
 
+#centeredimage {
+	text-align:center;
+}
+
 #nav {
 	/*clear:right;*/
 	list-style:none;
