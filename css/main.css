@@ -63,7 +63,8 @@ a:active {
 	list-style:none;
 	padding:0;
 	margin:0;
-	background-color:#37c;
+	/*background-color:#37c; old color; changed to Reed red*/
+	background-color:#a70d16;
 	/*position:absolute;
 	top:30px;
 	left:0;
@@ -80,7 +81,8 @@ a:active {
 	border-right-style:solid;
 	border-color:#fff;
 	border-width:2px;*/
-	background-color:#37c;
+	/*background-color:#37c;*/
+	background-color:#a70d16;
 	text-decoration:none;
 	/*font-weight:bold;*/
 	/*font-variant: small-caps;*/
@@ -88,12 +90,14 @@ a:active {
 }
 #nav li a:hover {
 	color:#fff;
-	background-color:#146;
+	/*background-color:#146;*/
+	background-color:#740910;
 }
 
 #selected a {
 	color:#fff;
-	background-color:#146;
+	/*background-color:#146;*/
+	background-color:#740910;
 }
 
 
