@@ -53,6 +53,7 @@ numerical simulation of fluid dynamics.
 
 # Links to conferences organized
 
+- [Monopole Moduli](https://www.icts.res.in/program/Mnpl2026), Septebmer 2026
 - [Modern Musings on Monopoles](https://scgp.stonybrook.edu/archives/45383), October 2025
 - [Celebrating Singularity: a conference in honor of Richard Melrose](CelebratingSingularity2024/), January 2024
 - [The Sen conjecture and beyond](senworkshop/), June 2017
@@ -64,8 +65,4 @@ numerical simulation of fluid dynamics.
 This is a brief introduction to the Atiyah-Singer families index theorem for
 topologists, emphasizing the role of the index as a Gysin map in K-theory,
 including a discussion of spin^c structures, orientation and Dirac operators.
-- [*Extension off the boundary in a manifold with corners*](docs/extension.pdf).
-  This is a short note about extending vector bundles, sections and connections
-smoothly from the boundary of a manifold with
-corners into the interior.
 

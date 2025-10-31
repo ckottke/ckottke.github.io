@@ -3,6 +3,10 @@ layout: main
 ---
 
 # Courses at Reed College
+- Spring 2026:
+  - Math 202 Vector Calculus
+  - Math 311 Complex Analysis
+
 - Fall 2025:
   - Math 321 Real Analysis
 
