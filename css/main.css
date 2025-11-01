@@ -26,13 +26,13 @@ a:active {
 
 #outcontainer {
 	width:100%;
-	margin-left:-150px;
+	margin-left:-155px;
 	float:right;
 }
 
 #title { 
 	/*font-family:Georgia,serif;*/
-	margin-left:150px;
+	margin-left:155px;
 	font-size:14pt;
 	text-align:center;
 	/*font-weight:bold;*/
@@ -47,7 +47,7 @@ a:active {
 
 #leftbar {
 	float:left;
-	width:150px;
+	width:155px;
 	/*position:absolute;
 	top:0;
 	left:0;*/
@@ -73,7 +73,7 @@ a:active {
 	top:30px;
 	left:0;
 	margin-left:150px;*/
-	margin-left:150px;
+	margin-left:155px;
 }
 #nav li {
 	display:inline;
@@ -107,7 +107,7 @@ a:active {
 
 #content {
 	/*clear:right;*/
-	margin-left:150px;
+	margin-left:155px;
 	margin-top:0;
 	padding:10px;
 	background-color:#fff;
