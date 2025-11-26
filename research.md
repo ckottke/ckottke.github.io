@@ -53,7 +53,7 @@ numerical simulation of fluid dynamics.
 
 # Links to conferences organized
 
-- [Monopole Moduli](https://www.icts.res.in/program/Mnpl2026), Septebmer 2026
+- [Monopole Moduli](https://www.icts.res.in/program/Mnpl2026), September 2026
 - [Modern Musings on Monopoles](https://scgp.stonybrook.edu/archives/45383), October 2025
 - [Celebrating Singularity: a conference in honor of Richard Melrose](CelebratingSingularity2024/), January 2024
 - [The Sen conjecture and beyond](senworkshop/), June 2017
