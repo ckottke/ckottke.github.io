@@ -1,3 +1,13 @@
+
+- title: "Quasi-fibered boundary pseudodifferential operators"
+  journal: "Asterisque"
+  arxiv: "2103.16650"
+  doi: "10.24033/ast.1269"
+  volume: 465
+  year: 2026
+  with: [fr]
+  pages: 206
+
 - title: "Products of manifolds with fibered corners"
   journal: "Annals of Global Analysis and Geometry"
   doi: "10.1007/s10455-023-09912-1"
@@ -16,13 +26,6 @@
   year: 2024
   with: [fr]
   pages: 1083-1131
-
-- title: "Quasi-fibered boundary pseudodifferential operators"
-  journal: "Asterisque"
-  arxiv: "2103.16650"
-  year: 2021
-  with: [fr]
-  pages: 127
 
 - title: "Low energy limit of the resolvent of some fibered boundary operators"
   doi: "10.1007/s00220-021-04273-x"
