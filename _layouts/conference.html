@@ -1,8 +1,7 @@
-<html>
-	<head>
-		<title>{{page.title}}</title>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/workshop.css" type="text/css" media="all" />
-</head>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include workshophead.html %}
+
 <body>
 	<h1 id="title">{{page.title}}</h1>
 	<div id="nav">
@@ -19,3 +18,4 @@
 </div>
 
 </body>
+</html>
