@@ -132,6 +132,9 @@ a:active {
 
 #nav li {
 	display:inline;
+}
+
+#nav li a {
 	padding:0em 2em 0em 2em;
 }
 
@@ -144,7 +147,7 @@ a:active {
 #leftbar img {
 	display: none
 }
-#cvlinks {
+#cvlinks a {
 	text-align:center;
 }
 }
