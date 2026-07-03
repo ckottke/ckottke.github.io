@@ -42,18 +42,10 @@ a:active {
 	right:0;*/
 }
 
-#contact {
-	font-size:0.9em;
-}
-
-.centeredimage {
-	text-align:center;
-}
-
 #nav {
 	/*clear:right;*/
 	list-style:none;
-	padding:0;
+	padding:2em;
 	margin:0;
 	/*background-color:#37c; old color; changed to Reed red*/
 	background-color:#a70d16;
@@ -62,11 +54,8 @@ a:active {
 	left:0;
 	margin-left:150px;*/
 }
-#nav li {
-	display:inline;
-}
 #nav li a {
-	padding:0em 2em 0em 2em;
+	/* padding:0em 2em 0em 2em; */
 	color:#fff;
 	/*float:left;
 	border-right-style:solid;
@@ -84,13 +73,6 @@ a:active {
 	/*background-color:#146;*/
 	background-color:#740910;
 }
-
-#selected a {
-	color:#fff;
-	/*background-color:#146;*/
-	background-color:#740910;
-}
-
 
 #content {
 	/*clear:right;*/
@@ -117,6 +99,18 @@ a:active {
 	max-width:50em;
 }
 
+#leftbar {
+	font-size:0.9em;
+}
+
+#leftbar img {
+	text-align:center;
+}
+
+#centeredimage {
+	text-align:center;
+}
+
 @media only screen and (min-width: 600px) {
 #outcontainer {
 	margin-left:-155px;
@@ -136,13 +130,20 @@ a:active {
 	margin-left:155px;
 }
 
+#nav li {
+	display:inline;
+}
+
 #content {
 	margin-left:155px;
 } 
 }
 
 @media only screen and (max-width: 600px) {
-#leftbarimage {
+#leftbar img {
 	display: none
+}
+#cvlinks {
+	text-align:center;
 }
 }
