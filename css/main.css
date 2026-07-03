@@ -107,11 +107,16 @@ a:active {
 	text-align:center;
 }
 
-#centeredimage {
-	text-align:center;
+#leftbar hr {
+	left-margin: 0;
+	height: 2px;
+	width: 75%;
+	border-width: 0;
+	color: gray;
+	background-color: gray;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 #outcontainer {
 	margin-left:-155px;
 	float:right;
@@ -143,11 +148,14 @@ a:active {
 } 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+#title {
+	text-align:left;
+}
 #leftbar img {
 	display: none
 }
-#cvlinks {
+#leftbar {
 	text-align:center;
 }
 }
