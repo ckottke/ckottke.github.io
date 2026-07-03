@@ -45,7 +45,7 @@ a:active {
 #nav {
 	/*clear:right;*/
 	list-style:none;
-	padding:2em;
+	/*padding:2em;*/
 	margin:0;
 	/*background-color:#37c; old color; changed to Reed red*/
 	background-color:#a70d16;
@@ -132,6 +132,7 @@ a:active {
 
 #nav li {
 	display:inline;
+	padding:0em 2em 0em 2em;
 }
 
 #content {
