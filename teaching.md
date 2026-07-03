@@ -49,37 +49,37 @@ layout: main
   - Writing in Mathematics
 
 - Fall 2020:
-  - [Calculus III](calc3_fa20)
+  - [Calculus III](ncf/calc3_fa20)
   - Mathematical Thinking: Patterns, Puzzles, and Exploration
 
 - Spring 2020:
-  - [PDE](pde_sp20/)
-  - [Writing in Mathematics](writing_sp20/)
+  - [PDE](ncf/pde_sp20/)
+  - [Writing in Mathematics](ncf/writing_sp20/)
 
 - Fall 2019: On leave
 - Spring 2019:
-  - [Distribution Theory](distributions_sp19/)
-  - [Writing in Mathematics](writing_sp19/)
+  - [Distribution Theory](ncf/distributions_sp19/)
+  - [Writing in Mathematics](ncf/writing_sp19/)
 
 - Fall 2018:
-  - [Calculus III](calc3_fa18/)
-  - [Complex Analysis](complex_fa18/)
+  - [Calculus III](ncf/calc3_fa18/)
+  - [Complex Analysis](ncf/complex_fa18/)
 
 - Spring 2018:
-  - [PDE](pde_sp18/)
-  - [Real Analysis II](analysis_sp18/)
+  - [PDE](ncf/pde_sp18/)
+  - [Real Analysis II](ncf/analysis_sp18/)
 
 - Fall 2017: 
-  - [Calculus III](calc3_fa17/)
-  - [Real Analysis](analysis_fa17/)
+  - [Calculus III](ncf/calc3_fa17/)
+  - [Real Analysis](ncf/analysis_fa17/)
 
 - Spring 2017:
-  - [Advanced Linear Algebra](advlinear/)
-  - [Complex Analysis](complex_sp17/)
+  - [Advanced Linear Algebra](ncf/advlinear/)
+  - [Complex Analysis](ncf/complex_sp17/)
 
 - Fall 2016:
-  - [Calculus III](calc3_fa16/)
-  - [Functional Analysis](functional/)
+  - [Calculus III](ncf/calc3_fa16/)
+  - [Functional Analysis](ncf/functional/)
 
 # New College thesis class for LaTeX
  For New College students who wish to write their thesis in LaTeX, I have written a class file which will give you all the proper formatting. Feel free to reach out to me with questions about how to use these.
