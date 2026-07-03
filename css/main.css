@@ -134,7 +134,7 @@ a:active {
 }
 
 /* Some adjustments for small screen size */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 #title {
 	text-align:left;
 }
