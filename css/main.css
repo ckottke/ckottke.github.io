@@ -26,13 +26,10 @@ a:active {
 
 #outcontainer {
 	width:100%;
-	margin-left:-155px;
-	float:right;
 }
 
 #title { 
 	/*font-family:Georgia,serif;*/
-	margin-left:155px;
 	font-size:14pt;
 	text-align:center;
 	/*font-weight:bold;*/
@@ -45,20 +42,11 @@ a:active {
 	right:0;*/
 }
 
-#leftbar {
-	float:left;
-	width:155px;
-	/*position:absolute;
-	top:0;
-	left:0;*/
-
-}
-
 #contact {
 	font-size:0.9em;
 }
 
-#centeredimage {
+.centeredimage {
 	text-align:center;
 }
 
@@ -73,7 +61,6 @@ a:active {
 	top:30px;
 	left:0;
 	margin-left:150px;*/
-	margin-left:155px;
 }
 #nav li {
 	display:inline;
@@ -107,7 +94,6 @@ a:active {
 
 #content {
 	/*clear:right;*/
-	margin-left:155px;
 	margin-top:0;
 	padding:10px;
 	background-color:#fff;
@@ -129,3 +115,34 @@ a:active {
 	padding-top:0.5em;
 	padding-bottom:0.5em;
 	max-width:50em;
+}
+
+@media only screen and (min-width: 600px) {
+#outcontainer {
+	margin-left:-155px;
+	float:right;
+}
+
+#title { 
+	margin-left:155px;
+}
+
+#leftbar {
+	float:left;
+	width:155px;
+} 
+
+#nav {
+	margin-left:155px;
+}
+
+#content {
+	margin-left:155px;
+} 
+}
+
+@media only screen and (max-width: 600px) {
+#leftbarimage {
+	display: none
+}
+}
