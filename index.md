@@ -4,7 +4,7 @@ layout: main
 
 # About me
 
-I am a Professor of Mathematics at [Reed College](https://www.reed.edu) in Portland.
+I am a Professor of Mathematics at [Reed College](https://www.reed.edu) in Portland, Oregon.
 
 My [research](research.html) area is geometric analysis, where I am interested
 in a number of topics involving geometry, analysis, topology 
