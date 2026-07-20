@@ -142,6 +142,9 @@ a:active {
 #nav {
     list-style-type:disc;
 }
+#nav li::marker {
+  color: white;
+}
 
 #leftbar img {
     display: none;
